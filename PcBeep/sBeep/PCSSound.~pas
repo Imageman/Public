@@ -1,0 +1,186 @@
+unit PCSSound;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs,RegExpr, StdCtrls;
+
+type TSoundThread = class(TThread) protected procedure Execute; override; end;
+
+var
+  WinBeep: boolean;
+  Tempo,Delay:Cardinal;
+  ParamMass:array of ShortString;
+  SoundThread:TSoundThread;
+
+procedure SetPort(wAddr:word;bOut:byte); stdcall; external 'inpout32.dll' name 'Out32';
+function GetPort(wAddr:word):integer; stdcall; external 'inpout32.dll'  name 'Inp32';
+procedure FormPlayMass(CurString:AnsiString);
+function TestCorrectness(mas:array of ShortString):boolean;
+
+implementation
+
+uses MainUnit;
+
+procedure TSoundThread.Execute; begin inherited; FormPlayMass(StringReplace(Form1.SoundMemo.Text,#13#10,'',[rfReplaceAll, rfIgnoreCase])); Form1.SoundMemo.Enabled:=True; end;
+
+procedure Sound(aFreq, aDelay: Integer) ;
+
+   procedure DoSound(Freq: Word) ;
+   var
+     B: Byte;
+   begin
+     if Freq > 18 then
+     begin
+       Freq := Word(1193181 div Longint(Freq)) ;
+       B := Byte(GetPort($61)) ;
+
+       if (B and 3) = 0 then
+       begin
+         SetPort($61, Word(B or 3)) ;
+         SetPort($43, $B6) ;
+       end;
+
+       SetPort($42, Freq) ;
+       SetPort($42, Freq shr 8) ;
+     end;
+   end;
+
+   procedure Delay(MSecs: Integer) ;
+   var
+     FirstTickCount: LongInt;
+   begin
+     FirstTickCount := GetTickCount;
+     repeat
+       Sleep(1) ;
+     until ((GetTickCount - FirstTickCount) >= Longint(MSecs)) ;
+   end;
+
+begin
+     DoSound(aFreq) ;
+     Delay(aDelay) ;
+end;
+
+procedure NoSound;
+var
+   Value: Word;
+begin
+     Value := GetPort($61) and $FC;
+     SetPort($61, Value) ;
+end;
+
+procedure PlayNote(StrNote:string;delay:Cardinal);
+const
+ Freq2Max: array [0..11] of single = (8372, 8869.6, 9396.8, 9956, 10548, 11175.2, 11840, 12544, 13289.6, 14080, 14916.8, 15804);
+var
+ aFreq:Single;
+ RegExp: TRegExpr;
+ note_ind,note_oct,note_offset:integer;
+ sm:string;
+ c:char;
+ pause:boolean;
+ es:integer;
+begin
+ RegExp := TRegExpr.Create;
+ RegExp.Expression := '([A-H]|[a-h]|P|p)(is|IS|iS|Is|es|ES|eS|Es|)([0-9]|)';
+ if RegExp.Exec(StrNote) then
+   sm := RegExp.Match[1];
+   c:=sm[1];
+   pause := false;
+  case (c) of
+   'C','c': note_ind := 0;
+   'D','d': note_ind := 2;
+   'E','e': note_ind := 4;
+   'F','f': note_ind := 5;
+   'G','g': note_ind := 7;
+   'A','a': note_ind := 9;
+   'B','b': note_ind := 10;
+   'H','h': note_ind := 11;
+   'P','p': pause := true;
+  end;
+  if pause then
+  begin
+   NoSound;
+   sleep(delay);
+  end else
+  begin
+       es := 0;
+       if (UpperCase(RegExp.Match[2])=UpperCase('is')) then
+        note_offset := 1
+       else if (UpperCase(RegExp.Match[2])=UpperCase('es')) then begin
+        es := 128;
+        note_offset := -1;
+       end
+       else
+        note_offset := 0;
+
+       if (length(RegExp.Match[3])=1) then
+        note_oct := strtoint(RegExp.Match[3])
+       else
+        note_oct := 0;
+
+      aFreq:=Freq2Max[note_ind+note_offset] / (2 shl (8-note_oct));
+      Sound(trunc(aFreq),delay);
+  end;
+end;
+
+procedure FormPlayMass(CurString:AnsiString);
+var i,MasID,j,Mult,OldDelay:Cardinal;
+DelayMass:array of ShortString; Triol:Boolean;
+begin
+MasID:=0; Delay:=250; Tempo:=120; i:=1;
+SetLength(ParamMass,0); SetLength(ParamMass,100000);
+
+while i<>Length(CurString)+1 do begin if CurString[i]<>',' then begin ParamMass[MasID]:=ParamMass[MasID]+CurString[i]; Inc(i); end else begin Inc(i); Inc(MasID); end; end;
+for i:=0 to High(ParamMass) do if ParamMass[i]='' then begin SetLength(ParamMass,i); Break; end;
+if not TestCorrectness(ParamMass) then Exit;
+for i:=0 to High(ParamMass) do begin
+
+if ParamMass[i][1]='^' then begin Delay:=Trunc(Delay*Tempo/StrToInt(Copy(ParamMass[i],2,Length(ParamMass[i])))); Tempo:=StrToInt(Copy(ParamMass[i],2,Length(ParamMass[i]))); end;
+
+if ParamMass[i][1]='*' then begin
+j:=2; MasID:=0; OldDelay:=Delay; Delay:=0; Triol:=False; Mult:=1;
+SetLength(DelayMass,0); SetLength(DelayMass,10000);
+while j<>Length(ParamMass[i])+1 do begin if ParamMass[i][j]<>'+' then begin DelayMass[MasID]:=DelayMass[MasID]+ParamMass[i][j]; Inc(j); end else begin Inc(j); Inc(MasID); end; end;
+for j:=0 to High(DelayMass) do if DelayMass[j]='' then begin SetLength(DelayMass,j); Break; end;
+for j:=0 to High(DelayMass) do begin
+if not (DelayMass[j][1] in ['T','t','M','m']) then Delay:=Trunc(Delay+((1/StrToInt(DelayMass[j]))*240000/Tempo)) else
+if DelayMass[j][1] in ['T','t'] then Triol:=True else
+if DelayMass[j][1] in ['M','m'] then Mult:=StrToInt(Copy(DelayMass[j],2,Length(DelayMass[j]))); end;
+if Delay=0 then Delay:=OldDelay;
+Delay:=Delay*Mult;
+if Triol then Delay:=Trunc(Delay*(2/3));
+end;
+if (ParamMass[i][1]<>'^') and (ParamMass[i][1]<>'*') then PlayNote(ParamMass[i],Delay);
+NoSound; end;
+end;
+
+function TestCorrectness(mas:array of ShortString):boolean;
+var i,j,z:Cardinal; CurParam:ShortString;
+begin
+for i:=0 to High(mas) do begin
+if not (mas[i][1] in ['^','*']) then begin
+if (Length(mas[i])<>2) and (Length(mas[i])<>4) and not (mas[i][1] in ['P','p']) then begin Result:=False; Exit; end;
+if not (mas[i][1] in ['A'..'H','a'..'h','P','p']) then begin Result:=False; Exit; end;
+if (Length(mas[i])=2) and not (mas[i][2] in ['0'..'8']) then begin Result:=False; Exit; end;
+if (Length(mas[i])=4) and ((not (mas[i][2] in ['i','e','I','E'])) or not (mas[i][3] in ['s','S']) or not (mas[i][4] in ['0'..'8'])) then begin Result:=False; Exit; end;
+end;
+if mas[i][1]='^' then begin
+if Length(mas[i])=1 then begin Result:=False; Exit; end;
+if (Length(mas[i])=2) and (mas[i][2]='0') then begin Result:=False; Exit; end;
+for j:=2 to Length(mas[i]) do if not (mas[i][j] in ['0'..'9']) then begin Result:=False; Exit; end;
+end;
+if mas[i][1]='*' then begin
+j:=2; CurParam:='';
+while j<>Length(mas[i]) do begin
+if (mas[i][j]<>'+') and (j<>Length(mas[i])+1) then begin
+CurParam:=CurParam+Mas[i][j]; Inc(j); end
+else begin
+if not (CurParam[1] in ['0'..'9','M','T','m','t']) then begin Result:=False; Exit; end;
+if CurParam[1] in ['0'..'9','M','m'] then for z:=1 to Length(CurParam) do if not (CurParam[z] in ['0'..'9']) then begin Result:=False; Exit; end;
+if (CurParam[1] in ['T','t']) and (Length(CurParam)<>1) then begin Result:=False; Exit; end;
+Inc(j); CurParam:=''; end; end; end; end; Result:=True;
+end;
+
+end.
