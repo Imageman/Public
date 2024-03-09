@@ -2,6 +2,8 @@
 // КУЧА закладок от Владимира Чаплинского
 //LinkT("http","2024.01.01","keyword","Title","descr");
 //
+LinkT("https://www.bing.com/images/create/","2024.03.09","service, generator, AI","CopilotCopilot Designer","Сервис от Microsoft, DALL-E 3. Создание разнообразных картинок.");
+LinkT("https://github.com/xtekky/gpt4free","2024.03.03","GPT, AI, Python","gpt4free: Various collection of powerful language models","Халявный доступ к gpt-4, Llama, CodeLlama, Mixtral, gemini, claude из программы на питоне.");
 LinkT("https://keremerkan.net/qr-code-and-2d-code-generator/","2024.01.01","service, сервис, online, generator","QR Code and 2D Code Generator","Генератор QR-кодов (QRcode), Data Matrix, Aztec, Micro QR. Сокращение URL, выбор размера данных для восстановления, выбор типа данных.");
 LinkT("https://www.upwork.com/nx/find-work/best-matches","2024.01.01","work, работа, сервис","Upwork","Сайт для поиска работы (программист, удаленно), разовых заказов (фриланс)");
 LinkT("https://mediametrics.ru/rating/hitech/ru/day.html","2024.01.25","news, новости","MediaMetrics","Агрегатор новостей, сортирует по полулярности (минуты, часы, сутки, недели). Hi-Tech, lifestyle, бизнес, интервью. Без персонализации.");
