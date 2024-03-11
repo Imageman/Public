@@ -26,6 +26,7 @@ LinkT("http://prostopleer.com/","2023.07.13","MP3,online,музыка,серви
 
 LinkT("https://commonvoice.mozilla.org/ru/datasets","2023.08.01","dataset,программирование","Наборы данных","Голоса разных дикторов читают короткие фразы. Обучающий набор. Мультиязычный набор данных Common Voice.");
 
+LinkT("https://www.coffeeboss.eu/katalog-tovarov/","2024.03.01","store, магазин, покупки","Кофебосс","Магазин чай (листовой, рассыпной) и кофе. Доставка.");
 LinkT("https://www.btmet.com/","2023.01.12","torrent, search, online","BRMET","Поиск по торрентам (среди магнитных ссылок). Возможность просмотра через сайт mypikpak.com");
 LinkT("https://uptimerobot.com/","2023.01.11","service,сервис,admin","UptimeRobot","Сервис постоянно мониторит (отслеживает) адрес: пинг, порт, http(s) или наличие/отсутсвие ключевого слова на странице. При ошибке шлет письмо.");
 LinkT("https://cielab.xyz/colordiff.php","2022.12.28","DTP, online, calculator","Калкулятор для делта Е","Калькулятор Color Difference DeltaE для Lab и LCh. В том числе delta E 2000 с «офсетными» коэффициентами.");
