@@ -2,6 +2,7 @@
 // КУЧА закладок от Владимира Чаплинского
 //LinkT("http","2024.01.01","keyword","Title","descr");
 //
+LinkT("https://github.com/ilyhalight/voice-over-translation","2024.03.25","user script, scripts, english, russsian, translate, перевод","Yandex.Translate перевод Youtube","Перевод на лету видео. Расширение, которое добавляет закадровый перевод видео из YaBrowser в другие браузеры (через Tampermonkey)");
 LinkT("https://messages.google.com/web/u/0/conversations","2024.03.20","google, services, сервисы","Сообщения СМС","Получение и отправление сообщений (SMS) с android телефона.");
 LinkT("https://www.bing.com/images/create/","2024.03.09","service, generator, AI","CopilotCopilot Designer","Сервис от Microsoft, DALL-E 3. Создание разнообразных картинок.");
 LinkT("https://github.com/xtekky/gpt4free","2024.03.03","GPT, AI, Python","gpt4free: Various collection of powerful language models","Халявный доступ к gpt-4, Llama, CodeLlama, Mixtral, gemini, claude из программы на питоне.");
