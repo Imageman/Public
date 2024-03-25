@@ -2,7 +2,7 @@
 // КУЧА закладок от Владимира Чаплинского
 //LinkT("http","2024.01.01","keyword","Title","descr");
 //
-LinkT("https://chromewebstore.google.com/detail/merlin-1-click-access-to/camppjleccjaphfdbohjdohecfnoikec?pli=1","2024.03.01","расширение, browser, extension, ","Merlin","Расширение для Google Chrome: Chat GPT (Gemini, Mixtral) - суммаризация текстов, видео на Yoytube, транскрибация и перевод, суммаризация pdf, улучшение поиска google.");
+LinkT("https://chromewebstore.google.com/detail/merlin-1-click-access-to/camppjleccjaphfdbohjdohecfnoikec?pli=1","2024.03.01","расширение, browser, extension, AI, GPT ","Merlin","Расширение для Google Chrome: Chat GPT (Gemini, Mixtral) - суммаризация текстов, видео на Yoytube, транскрибация и перевод, суммаризация pdf, улучшение поиска google.");
 LinkT("https://github.com/ilyhalight/voice-over-translation","2024.03.25","user script, scripts, english, russsian, translate, перевод","Yandex.Translate перевод Youtube","Перевод на лету видео. Расширение, которое добавляет закадровый перевод видео из YaBrowser в другие браузеры (через Tampermonkey)");
 LinkT("https://messages.google.com/web/u/0/conversations","2024.03.20","google, services, сервисы","Сообщения СМС","Получение и отправление сообщений (SMS) с android телефона.");
 LinkT("https://www.bing.com/images/create/","2024.03.09","service, generator, AI","CopilotCopilot Designer","Сервис от Microsoft, DALL-E 3. Создание разнообразных картинок.");
