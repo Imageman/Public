@@ -2,8 +2,9 @@
 // КУЧА закладок от Владимира Чаплинского
 //LinkT("http","2024.01.01","keyword","Title","descr");
 //
+LinkT("https://github.com/FilipePS/Traduzir-paginas-web?tab=readme-ov-file","2024.03.01","расширение, browser, extension","Translate Web Pages","Расширение для быстрого перевода страниц на русский язык при помощи Yandex, Google. [Firefox, Chromium and Yandex, Chrome]");
 LinkT("https://chromewebstore.google.com/detail/merlin-1-click-access-to/camppjleccjaphfdbohjdohecfnoikec?pli=1","2024.03.01","расширение, browser, extension, AI, GPT ","Merlin","Расширение для Google Chrome: Chat GPT (Gemini, Mixtral) - суммаризация текстов, видео на Yoytube, транскрибация и перевод, суммаризация pdf, улучшение поиска google.");
-LinkT("https://github.com/ilyhalight/voice-over-translation","2024.03.25","user script, scripts, english, russsian, translate, перевод","Yandex.Translate перевод Youtube","Перевод на лету видео. Расширение, которое добавляет закадровый перевод видео из YaBrowser в другие браузеры (через Tampermonkey)");
+LinkT("https://github.com/ilyhalight/voice-over-translation","2024.03.25","user script, scripts, english, russsian, translate, перевод","Yandex.Translate перевод Youtube","Перевод на лету видео (на русский язык). Расширение, которое добавляет закадровый перевод видео из YaBrowser в другие браузеры (через Tampermonkey)");
 LinkT("https://messages.google.com/web/u/0/conversations","2024.03.20","google, services, сервисы","Сообщения СМС","Получение и отправление сообщений (SMS) с android телефона.");
 LinkT("https://www.bing.com/images/create/","2024.03.09","service, generator, AI","CopilotCopilot Designer","Сервис от Microsoft, DALL-E 3. Создание разнообразных картинок.");
 LinkT("https://github.com/xtekky/gpt4free","2024.03.03","GPT, AI, Python","gpt4free: Various collection of powerful language models","Халявный доступ к gpt-4, Llama, CodeLlama, Mixtral, gemini, claude из программы на питоне.");
@@ -204,7 +205,6 @@ LinkT("http://www.warmech.ru/","2016.06.01","history, история, стать
 LinkT("https://adorabilis.wordpress.com/","1457955034","internet,p2p,software,Андеграунд,бесплатно,программа","RetroShare - аналог eMule","<DD>RetroShare – приватная анонимная робастная децентрализованная сеть со стойким шифрованием передаваемых данных.");
 LinkT("http://aces.gg/","1456329942","игры, WOT","Aces - игровой портал World of tanks","<DD>Стримы, скачать моды для игры World of tanks, новости");
 LinkT("http://easyrgb.com/index.php?X=MATH","1455808251","DTP,алгоритм,graphics","EasyRGB - The inimitable RGB and COLOR","<DD>Формулы перевода цветов (красок): RGB, CMYK, CIE-L*ab, HSL, SHV, XYZ и т.п. Вычисление цветовой разницы, калибровка экрана,");
-LinkT("http://letyshops.ru/shops/category:170450/sort:rating","1450970936","магазины","Китайские магазины: все магазины с кэшбэком и скидками — LetyShops","<DD>Возврат 2-5% от стоимости покупки.");
 LinkT("http://radiovolna.net/4002-radiola.html","1449931017","сервис,online,радио","Радио слушать онлайн, плейлист","<DD>Куча радиостанций по категориям (80-е, ambient, chillout, eclectic) , возможность поиска по песне.");
 LinkT("http://habrahabr.ru/post/271279/?utm_campaign=email_digest&amp;utm_source=email_habrahabr&amp;utm_medium=email_week_20151124&amp;utm_content=link2post","1448888005","DTP,сервис,фото,фотосток,программирование,fonts,generator,graphics,генератор,каталог","400 потрясающих бесплатных сервисов / Хабрахабр","<DD>Список из 400 потрясающих бесплатных сервисов. Иконки, шаблоны, рекламные логотипы, SEO, оптимизаторы, редакторы, дизайн, цвет, шрифты, совместная деятельность");
 LinkT("http://chistilka.com/","1446135144","windows,программа,freeware,антивирус,безопасность","&quot;Чистилка&quot; - убиваем баннеры, рекламу, всплывающие окна","<DD>Ищет программы и расширения, которые показывают рекламу, меняют поисковик или стартовую страницу браузера. В дополнение к антивирусу");
@@ -404,7 +404,6 @@ LinkT("http://www.vc4diagnostikascentrs.lv/","1337196158","Латвия,меди
 LinkT("http://aquale.narod.ru/","1337154713","graphics,фракталы","Вселенная фракталов Леночки","<DD>Обзор почти десятка программ по фракталам, галерея работ.");
 LinkT("http://www.newsfiber.com/","1336997420","сервис,новости","NewsFiber - News","<DD>сайт собирает (агрегатор) новости с кучи других сайтов и сортирует их по категориям. Есть RSS");
 LinkT("http://blog.radjah.ru/2012/03/os-android.html","1336990023","Android","Операции над системными приложениями в OS Android.","<DD>Делаем из системного приложения в пользовательское и обратно");
-LinkT("http://ru-admin.net/182609-superspeed-supercache-v51885.html","1336832764","software","SuperSpeed SuperCache v5.1.885","<DD>кэширования данных на уровне блоков с отложенной записью (что-то вроде RAM disk с записью)");
 LinkT("http://www.jango.com/profiles/47961400?l=0","1334391252","радио,MP3,online","Jango","<DD>слушать on-line радио по твоему выбору. Можно голосовать за песни");
 LinkT("http://ru.pixel-peeper.com/cameras/?camera=388&amp;perpage=12&amp;iso_min=none&amp;iso_max=none&amp;exp_min=none&amp;exp_max=none&amp;res=6&amp;digicam=0","1334141758","фото","Полноразмерные примеры фотографии с Pentax K10D","<DD>Полноразмерные примеры фотографии с Pentax K10D и других фотоаппаратов");
 LinkT("http://www.leonfoto.lv/","1333629074","Латвия,фото","LeonFoto","<DD>Фотографии Лени Важнайса");
