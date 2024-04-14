@@ -2,12 +2,13 @@
 // КУЧА закладок от Владимира Чаплинского
 //LinkT("http","2024.01.01","keyword","Title","descr");
 //
+LinkT("https://civitai.com/","2024.01.01","AI, store,  MLearning, нейросеть","CivitAI","Нейросети и расширения для стабильной диффуззии. ComfyUI workflow, SD, SDXL, ODOR, LoRA, DoRA, checkpoint, poses, VAE, upscalers, motion, embedding. ");
 LinkT("https://app.codegpt.co/en/marketplace/agents/python310","2024.03.30","service, AI, Python","Python CodeGPT","Чатбот для написания кода программ на Питоне.");
 LinkT("https://github.com/FilipePS/Traduzir-paginas-web?tab=readme-ov-file","2024.03.01","расширение, browser, extension","Translate Web Pages","Расширение для быстрого перевода страниц на русский язык при помощи Yandex, Google. [Firefox, Chromium and Yandex, Chrome]");
 LinkT("https://chromewebstore.google.com/detail/merlin-1-click-access-to/camppjleccjaphfdbohjdohecfnoikec?pli=1","2024.03.01","расширение, browser, extension, AI, GPT ","Merlin","Расширение для Google Chrome: Chat GPT (Gemini, Mixtral) - суммаризация текстов, видео на Yoytube, транскрибация и перевод, суммаризация pdf, улучшение поиска google.");
 LinkT("https://github.com/ilyhalight/voice-over-translation","2024.03.25","user script, scripts, english, russsian, translate, перевод","Yandex.Translate перевод Youtube","Перевод на лету видео (на русский язык). Расширение, которое добавляет закадровый перевод видео из YaBrowser в другие браузеры (через Tampermonkey)");
 LinkT("https://messages.google.com/web/u/0/conversations","2024.03.20","google, services, сервисы","Сообщения СМС","Получение и отправление сообщений (SMS) с android телефона.");
-LinkT("https://www.bing.com/images/create/","2024.03.09","service, generator, AI","CopilotCopilot Designer","Сервис от Microsoft, DALL-E 3. Создание разнообразных картинок.");
+LinkT("https://www.bing.com/images/create/","2024.03.09","service, generator, AI","CopilotCopilot Designer","Сервис от Microsoft, DALL-E 3. Создание разнообразных картинок. Наподобии Кандинского или midjourney.");
 LinkT("https://github.com/xtekky/gpt4free","2024.03.03","GPT, AI, Python","gpt4free: Various collection of powerful language models","Халявный доступ к gpt-4, Llama, CodeLlama, Mixtral, gemini, claude из программы на питоне.");
 LinkT("https://keremerkan.net/qr-code-and-2d-code-generator/","2024.01.01","service, сервис, online, generator","QR Code and 2D Code Generator","Генератор QR-кодов (QRcode), Data Matrix, Aztec, Micro QR. Сокращение URL, выбор размера данных для восстановления, выбор типа данных.");
 LinkT("https://www.upwork.com/nx/find-work/best-matches","2024.01.01","work, работа, сервис","Upwork","Сайт для поиска работы (программист, удаленно), разовых заказов (фриланс)");
@@ -240,7 +241,7 @@ LinkT("http://www.fxyz.ru/","1423298046","математика,физика,сп
 LinkT("http://fizika.hut.ru/designation.php","1423217678","физика,образование,справки","Физика","<DD>Множество тем по физике, формул и прочего.");
 LinkT("http://www.timesynctool.com/","1422368197","freeware,windows,программа","NetTime - Network Time Synchronization Tool","<DD>синхронизация времени по NTP протоколу с удаленным сервером (может запускаться как сервис). 0.europe.pool.ntp.org или europe.pool.ntp.org использовать в качестве сервера.");
 LinkT("http://www.linkmarker.ru/","1420641255","сервис,internet,online","Сервис для хранения ваших интернет-закладок","<DD>Сервис для хранения онлайн закладок с возможностью поиска по ключевым словам и создания собственного каталога интернет-ссылок. Импорт-экспорт");
-LinkT("http://poppeeper.com/","1420367537","программа,почта","POP Peeper - Email Notification","<DD>Проверяет почту POP3, IMAP, SMTP, SSL, Hotmail, Yahoo, GMail и оповещает звуком-текстом-миганием о получении новых писем.");
+//LinkT("http://poppeeper.com/","1420367537","программа,почта","POP Peeper - Email Notification","<DD>Проверяет почту POP3, IMAP, SMTP, SSL, Hotmail, Yahoo, GMail и оповещает звуком-текстом-миганием о получении новых писем.");
 LinkT("http://compuart.ru/Index.aspx","1419760647","DTP,статьи","Журнал &quot;КомпьюАрт&quot;","<DD>Ежемесячный журнал по полиграфии, дизайну и компьютерной графике");
 LinkT("http://helpx.adobe.com/indesign/using/find-change.html#metacharacters_for_searching","1419759229","DTP","InDesign Help | Find/Change","<DD>GREP поиск/замена. Метасимволы.");
 LinkT("http://www.17track.net/en/result/post.shtml?nums=","1418806735","сервис,почта","17track - Track Global Postal","<DD>Отслеживание посылок (Offline) по трек-номеру. Track Global Postal number");
@@ -249,7 +250,7 @@ LinkT("http://habrahabr.ru/post/245111/?utm_campaign=email_digest&amp;utm_source
 LinkT("http://www.rezekne.lv/dome/rezeknes-vestnesis/","1418025306","Латвия,Rezekne","REZEKNE.LV: Rzeknes Vstnesis","<DD>архив резекненской газеты в PDF");
 LinkT("http://habrahabr.ru/post/208782/","1415819779","advanced,windows,internet,программа,бесплатно,freeware,admin","SoftEther VPN","<DD>продвинутый мультипротокольный VPN-сервер и клиент. Бесплатно, умеет создавать защищенное соединение.");
 LinkT("http://book.e-reading-lib.org/bookreader.php/126835/Zavgorodniii_-_Adobe_InDesign_CS3.html","1415281003","book,DTP","Книга Adobe InDesign","<DD>Общие принципы верстки книг, журналов, газет. +Основы работы с InDesign (перевод терминов на русский, описание отдельных настроек и т.п.).");
-LinkT("http://www.teamspeak.com/?page=teamspeak3","1415030562","","TeamSpeak - TeamSpeak 3","<DD>Телефон. Аналог RaidCall и Skype. Позволяет вести многопользовательские чаты. Состоит из клиентской и серверной части. Предназначена прежде всего для геймеров в онлайн и сетевых играх.");
+LinkT("http://www.teamspeak.com/","1415030562","","TeamSpeak - TeamSpeak 5","<DD>Телефон. Аналог RaidCall и Skype. Позволяет вести многопользовательские чаты. Состоит из клиентской и серверной части. Предназначена прежде всего для геймеров в онлайн и сетевых играх.");
 //LinkT("http://publicradio.io/","1413974057","MP3,online,сервис","Public radio","<DD>Сервис рекомендательного онлайн радио. Основан на Вконтакте (vk.com), проигрывает оттуда MP3");
 LinkT("http://post-tracker.ru/","1413377188","сервис","Отслеживание посылок","<DD>Следим Трек-номер (отправка на почту, проверено).");
 LinkT("https://audio-knigki.com/","1411497476","книги","Аудиокнига audio-knigki| Аудиокниги онлайн, скачать mp3.","<DD>Аудиокниги скачать бесплатно mp3 с файлопомоек");
