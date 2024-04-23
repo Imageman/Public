@@ -2,7 +2,8 @@
 // КУЧА закладок от Владимира Чаплинского
 //LinkT("http","2024.01.01","keyword","Title","descr");
 //
-LinkT("https://civitai.com/","2024.01.01","AI, store,  MLearning, нейросеть","CivitAI","Нейросети и расширения для стабильной диффуззии. ComfyUI workflow, SD, SDXL, ODOR, LoRA, DoRA, checkpoint, poses, VAE, upscalers, motion, embedding. ");
+LinkT("https://mycolor.space/?hex=%23374E86&sub=1","2024.04.23","графика, дизайн, генератор, generator,DTP, сервис ","Color Space","Генератор цветовых схем. Create color schemes with the color sample.");
+LinkT("https://civitai.com/","2024.01.01","AI, store,  MLearning, нейросеть","CivitAI","Нейросети и расширения для стабильной диффуззии. ComfyUI workflow, SD, SDXL, ODOR, LoRA, DoRA, checkpoint, poses, VAE, upscalers, motion, embedding. Напоминает huggingface.co для художников");
 LinkT("https://app.codegpt.co/en/marketplace/agents/python310","2024.03.30","service, AI, Python","Python CodeGPT","Чатбот для написания кода программ на Питоне.");
 LinkT("https://github.com/FilipePS/Traduzir-paginas-web?tab=readme-ov-file","2024.03.01","расширение, browser, extension","Translate Web Pages","Расширение для быстрого перевода страниц на русский язык при помощи Yandex, Google. [Firefox, Chromium and Yandex, Chrome]");
 LinkT("https://chromewebstore.google.com/detail/merlin-1-click-access-to/camppjleccjaphfdbohjdohecfnoikec?pli=1","2024.03.01","расширение, browser, extension, AI, GPT ","Merlin","Расширение для Google Chrome: Chat GPT (Gemini, Mixtral) - суммаризация текстов, видео на Yoytube, транскрибация и перевод, суммаризация pdf, улучшение поиска google.");
