@@ -2,6 +2,7 @@
 // КУЧА закладок от Владимира Чаплинского
 //LinkT("http","2024.01.01","keyword","Title","descr");
 //
+LinkT("https://www.coze.com/home","2024.04.29","service, AI, GPT","Coze own AI bot","Множество AI ботов: GPT4, DALLE 3. Позволяет создать собстенного бота.");
 LinkT("https://mycolor.space/?hex=%23374E86&sub=1","2024.04.23","графика, дизайн, генератор, generator,DTP, сервис ","Color Space","Генератор цветовых схем. Create color schemes with the color sample.");
 LinkT("https://civitai.com/","2024.01.01","AI, store,  MLearning, нейросеть","CivitAI","Нейросети и расширения для стабильной диффуззии. ComfyUI workflow, SD, SDXL, ODOR, LoRA, DoRA, checkpoint, poses, VAE, upscalers, motion, embedding. Напоминает huggingface.co для художников");
 LinkT("https://app.codegpt.co/en/marketplace/agents/python310","2024.03.30","service, AI, Python","Python CodeGPT","Чатбот для написания кода программ на Питоне.");
