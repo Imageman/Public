@@ -2,6 +2,7 @@
 // КУЧА закладок от Владимира Чаплинского
 //LinkT("http","2024.06.01","keyword","Title","descr");
 //
+LinkT("https://morss.it/","2024.06.01","RSS, news-feed, service","Full-text RSS","Расширяет урезанные RSS ленты, очищает страницы(?).");
 LinkT("https://www.coze.com/home","2024.04.29","service, AI, GPT","Coze own AI bot","Множество AI ботов: GPT4, DALLE 3. Позволяет создать собстенного бота.");
 LinkT("https://mycolor.space/?hex=%23374E86&sub=1","2024.04.23","графика, дизайн, генератор, generator,DTP, сервис ","Color Space","Генератор цветовых схем. Create color schemes with the color sample.");
 LinkT("https://civitai.com/","2024.01.01","AI, store,  MLearning, нейросеть","CivitAI","Нейросети и расширения для стабильной диффуззии. ComfyUI workflow, SD, SDXL, ODOR, LoRA, DoRA, checkpoint, poses, VAE, upscalers, motion, embedding. Напоминает huggingface.co для художников");
@@ -707,7 +708,6 @@ LinkT("http://www.realcolor.ru/lib/monitortest/","1196769762","hardware,DTP","Re
 LinkT("http://www.normankoren.com/makingfineprints1B.html","1196770033","hardware,DTP,english","Background to monitor calibration and gamma","<DD>Калибровка монитора");
 LinkT("http://www.eci.org/doku.php?id=en:downloads","1216738337","advanced,DTP,hardware,english,graphics,графика","Downloads ICC [ECI.ORG]","<DD>стандартные профили (могут рекомендоваться для средней типографии)");
 LinkT("http://www.rezeknesap.lv/index.php?page=10","1216570039","Латвия,справки","Расписание автобусов на Разно","");
-LinkT("http://allday2.com/","1216457248","графика,дизайн,программа,Варезник,DTP","ALLDAY.RU - портал обо всем интересном в дизайне. Скачать фото, картинки, обои, рисунки, иконки, клипарты, шаблоны.","<DD>EPS, AI, PSD клипарты; Actions &amp; Style; Плагины и Кисти для Photoshop");
 LinkT("http://www.spiralgraphics.biz/","1216446275","дизайн,графика,программа","Spiral Graphics","<DD>генератор текстур Genetica");
 LinkT("http://directshow.wonderu.com/","1216448285","статьи,программирование,Delphi,delphi компоненты,graphics,графика","DirectShow по-русски - DirectShow по-русски","");
 LinkT("http://arcurs.com/keywording/","1203085748","keywords,foto,фото,сервис,фотосток,fotostock","PhotoKeywords.com: keywording service","<DD>подбор ключевых слов по похожим фотографиям");
