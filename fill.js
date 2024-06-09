@@ -1,6 +1,6 @@
 // Кириллический текст в виндовс кодровке UTF-8
 // КУЧА закладок от Владимира Чаплинского
-//LinkT("http","2024.01.01","keyword","Title","descr");
+//LinkT("http","2024.06.01","keyword","Title","descr");
 //
 LinkT("https://www.coze.com/home","2024.04.29","service, AI, GPT","Coze own AI bot","Множество AI ботов: GPT4, DALLE 3. Позволяет создать собстенного бота.");
 LinkT("https://mycolor.space/?hex=%23374E86&sub=1","2024.04.23","графика, дизайн, генератор, generator,DTP, сервис ","Color Space","Генератор цветовых схем. Create color schemes with the color sample.");
@@ -34,6 +34,7 @@ LinkT("http://prostopleer.com/","2023.07.13","MP3,online,музыка,серви
 
 LinkT("https://commonvoice.mozilla.org/ru/datasets","2023.08.01","dataset,программирование","Наборы данных","Голоса разных дикторов читают короткие фразы. Обучающий набор. Мультиязычный набор данных Common Voice.");
 
+LinkT("https://habr.com/ru/articles/820343/","2024.06.01","software, windows, варез","Как загрузить, установить Office 2024 LTSC с сайта Microsoft и активировать навсегда","Excel и Word выбирайте для установки Актуальный канал (Current Channel). Office Deployment Tool и OHook activation. Альтернатива msfree.su");
 LinkT("https://www.coffeeboss.eu/katalog-tovarov/","2024.03.01","store, магазин, покупки","Кофебосс","Магазин чай (листовой, рассыпной) и кофе. Доставка.");
 LinkT("https://www.btmet.com/","2023.01.12","torrent, search, online","BRMET","Поиск по торрентам (среди магнитных ссылок). Возможность просмотра через сайт mypikpak.com");
 LinkT("https://uptimerobot.com/","2023.01.11","service,сервис,admin","UptimeRobot","Сервис постоянно мониторит (отслеживает) адрес: пинг, порт, http(s) или наличие/отсутсвие ключевого слова на странице. При ошибке шлет письмо.");
