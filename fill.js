@@ -591,7 +591,6 @@ LinkT("http://www.ereport.ru/stat.php","1251967989","csv,экономика","Э
 LinkT("http://greenflash.su/Grub4Dos/Grub4dos.htm","1251958657","advanced,windows","Русскоязычное руководство по загрузчику Grub4dos","<DD>создание загрузочной флешки, винчестера и CD с поддержкой мультизагрузки (меню)");
 LinkT("http://www.kinopoisk.ru/","1251446232","сервис,рекомендации,фильмы","КиноПоиск.ru. Все фильмы планеты","<DD>Поиск фильмов, рекомендации.  Новости кино, отзывы пользователей");
 LinkT("http://fantlab.ru/","1251446078","сервис,рекомендации,книги","Лаборатория Фантастики","<DD>библиографии, описания, рейтинги, рекомендации по интересам");
-LinkT("http://www.peeep.us/","1251445411","сервис,internet","peeep.us Хранение страниц","<DD>Сервис хранения страниц целиком. Страницу могут на родном сервере удалить, но она останется на peeep.us");
 LinkT("http://imageman72.livejournal.com/","1251054729","blog","imageman72","<DD>живой журнал - программирование, ГА, графика и фото");
 LinkT("http://leenissen.dk/fann/html/files2/installation-txt.html#Delphi_Bindings","1250443931","MLearning,delphi компоненты,english,программирование","Installing FANN - Fast Artificial Neural Network Library (FANN)","<DD>быстрые нейросети в Дельфи");
 LinkT("http://www.autotransinfo.ru/Trace/default.aspx","1250340249","сервис","АвтоТрансИнфо: определение расстояний между городами","<DD>прокладка маршрута для автомобиля от пункта А до Б");
