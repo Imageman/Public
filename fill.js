@@ -2,6 +2,7 @@
 // КУЧА закладок от Владимира Чаплинского
 //LinkT("http","2024.06.01","keyword","Title","descr");
 //
+LinkT("https://edit.paperpal.com/","2024.08.19","service, search, AI","Paperpal","Система для помощи в написании научных статей. Есть поиск по опубликованным научным статьям.");
 LinkT("https://morss.it/","2024.06.01","RSS, news-feed, service","Full-text RSS","Расширяет урезанные RSS ленты, очищает страницы(?).");
 LinkT("https://www.coze.com/home","2024.04.29","service, AI, GPT","Coze own AI bot","Множество AI ботов: GPT4, DALLE 3. Позволяет создать собстенного бота.");
 LinkT("https://mycolor.space/?hex=%23374E86&sub=1","2024.04.23","графика, дизайн, генератор, generator,DTP, сервис ","Color Space","Генератор цветовых схем. Create color schemes with the color sample.");
