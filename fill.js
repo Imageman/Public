@@ -1,7 +1,10 @@
 // Кириллический текст в виндовс кодровке UTF-8
 // КУЧА закладок от Владимира Чаплинского
-//LinkT("http","2024.08.01","keyword","Title","descr");
+//LinkT("http","2024.10.01","keyword","Title","descr");
 //
+LinkT("https://docs.astral.sh/uv/","2024.10.01","python","Python package and project manager","Замена pip, pip-tools, pipx, poetry, pyenv, virtualenv; загрузка и управление версиями питона, создание виртуальных сред и др.");
+LinkT("https://devv.ai/","2024.10.01","service, программирование, python","Title","При помощи GPT, Gemini, Claude, Llama позволяет писать программы на Питоне. Так же автоматически ищет куски кода на страницах web.");
+LinkT("https://app.giz.ai/assistant/","2024.10.01","service, search, AI, news, image, audio, writer","GizAI","OpenAI, GPT, Gemini, Claude, Llama, Mistral - все эти модели собраны для чатов, поиска новостей и др (YouTube , PDF, URLs)");
 LinkT("https://downdetector.com/","2024.08.21","online, test","Downdetector.com","Английский сервис для отслеживания работы рызличных сайтов и программ (telegram, skype, whatsapp, youtube, steam, microsoft, google, spotify, reddit, gmail, openai, tiktok)");
 LinkT("https://downdetector.su/","2024.08.21","online, test","Downdetector","Русский сервис для отслеживания работы рызличных сайтов и программ (telegram, skype, whatsapp, youtube, steam, кинопоиск, вконтакте)");
 LinkT("https://edit.paperpal.com/","2024.08.19","service, search, AI","Paperpal","Система для помощи в написании научных статей. Есть поиск по опубликованным научным статьям.");
