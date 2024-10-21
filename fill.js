@@ -2,6 +2,7 @@
 // КУЧА закладок от Владимира Чаплинского
 //LinkT("http","2024.10.01","keyword","Title","descr");
 //
+LinkT("https://openmodeldb.info/","2024.10.20","ComfyUI, AI, denoise, upscale","OpenModelUpscale","Большой набор моделей для увеличения (фото, аниме, шумные фото). Почти все на основе ESRGAN. Cреди них есть для уменьшения шумов.");
 LinkT("https://docs.astral.sh/uv/","2024.10.01","python","Python package and project manager","Замена pip, pip-tools, pipx, poetry, pyenv, virtualenv; загрузка и управление версиями питона, создание виртуальных сред и др.");
 LinkT("https://devv.ai/","2024.10.01","service, программирование, python","Title","При помощи GPT, Gemini, Claude, Llama позволяет писать программы на Питоне. Так же автоматически ищет куски кода на страницах web.");
 LinkT("https://app.giz.ai/assistant/","2024.10.01","service, search, AI, news, image, audio, writer","GizAI","OpenAI, GPT, Gemini, Claude, Llama, Mistral - все эти модели собраны для чатов, поиска новостей и др (YouTube , PDF, URLs)");
