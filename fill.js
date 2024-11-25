@@ -2,6 +2,7 @@
 // КУЧА закладок от Владимира Чаплинского
 //LinkT("http","2024.10.01","keyword","Title","descr");
 //
+LinkT("https://www.dynu.com/","2024.08.01","service, internet, dns","Dynu {d}dns","Динамический бесплатный DNS в дополнение к no-ip.org. SSL Certificate (платно).");
 LinkT("https://openmodeldb.info/","2024.10.20","ComfyUI, AI, denoise, upscale","OpenModelUpscale","Большой набор моделей для увеличения (фото, аниме, шумные фото). Почти все на основе ESRGAN. Cреди них есть для уменьшения шумов.");
 LinkT("https://docs.astral.sh/uv/","2024.10.01","python","Python package and project manager","Замена pip, pip-tools, pipx, poetry, pyenv, virtualenv; загрузка и управление версиями питона, создание виртуальных сред и др.");
 LinkT("https://devv.ai/","2024.10.01","service, программирование, python","Title","При помощи GPT, Gemini, Claude, Llama позволяет писать программы на Питоне. Так же автоматически ищет куски кода на страницах web.");
@@ -189,7 +190,7 @@ LinkT("https://addons.mozilla.org/ru/firefox/addon/groupspeeddial/?utm_source=gs
 LinkT("https://addons.mozilla.org/ru/firefox/addon/imagus/","2017.04.18","Firefox, plugin, расширение","Imagus","Увеличивает миниатюры и показывает изображения/видео при наведении мыши на ссылки");
 LinkT("http://www.devicespecifications.com/ru/","2017.04.09","телефон, сервис, сравнение, поиск, english","Compare phone","Сравнение по разным параметрам [китайских] смартфонов (экран, размеры, CPU, аккумулятор)");
 LinkT("http://fractorium.com/","2017.04.02","графика, фрактал, GPU, freeware, программа","Fractorium","Фракталы flam (частично) с поддержкой GPU, есть командная строка");
-LinkT("https://adnauseam.io/","2017.02.10","integnet,plugin,расширение,Firefox,Opera","AdNauseam","Плагин-глушилка + нажималка на всю рекламу. Нажимание на рекламу сводит с ума таргетирование");
+LinkT("https://adnauseam.io/","2017.02.10","internet,plugin,расширение,Firefox,Opera","AdNauseam","Плагин-глушилка + нажималка на всю рекламу. Нажимание на рекламу сводит с ума таргетирование");
 LinkT("http://www.movier.tv/","2017.02.12","software, freeware, avi, mkv, mp4, Youtube, Vimeo,  Google Video","MOVIER","Программа скачивает видео с онлайн кинотеатров и видеопомоек (типа Ютуба, Вимео, Pornoxo, YouPorn, Sextube, XTube и т.п.). Может перехватывать траффик.");
 LinkT("http://cielab.xyz/forum/viewtopic.php?f=2&t=548","2017.01.26","DTP, color, CMYK","Adobe Photoshop: правильные настройки Color Settings","Статья посвящена настройке Photoshop для правильного цветоделения на европейские бумаги");
 LinkT("http://pokupandex.ru/","2017.01.20","магазины, сервис, блог, обзор","Pokupandex","Шоппинг. Обзоры товаров из китайских магазинов");
