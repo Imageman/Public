@@ -1,11 +1,12 @@
 // Кириллический текст в виндовс кодровке UTF-8
 // КУЧА закладок от Владимира Чаплинского
-//LinkT("http","2024.10.01","keyword","Title","descr");
+//LinkT("http","2025.01.01","keyword","Title","descr");
 //
+LinkT("https://hr.maniveselibasdati.lv/","2025.01.13","Latvia","Mani veselības dati","Сервис медицинских данных. Автоматическая подгрузка результатов анализа с Gilbja labolatorija и Centrālā labolatorija. Визиты врача, диагнозы, медикаменты, обследования.");
 LinkT("https://www.dynu.com/","2024.08.01","service, internet, dns","Dynu {d}dns","Динамический бесплатный DNS в дополнение к no-ip.org. SSL Certificate (платно).");
 LinkT("https://openmodeldb.info/","2024.10.20","ComfyUI, AI, denoise, upscale","OpenModelUpscale","Большой набор моделей для увеличения (фото, аниме, шумные фото). Почти все на основе ESRGAN. Cреди них есть для уменьшения шумов.");
 LinkT("https://docs.astral.sh/uv/","2024.10.01","python","Python package and project manager","Замена pip, pip-tools, pipx, poetry, pyenv, virtualenv; загрузка и управление версиями питона, создание виртуальных сред и др.");
-LinkT("https://devv.ai/","2024.10.01","service, программирование, python","Title","При помощи GPT, Gemini, Claude, Llama позволяет писать программы на Питоне. Так же автоматически ищет куски кода на страницах web.");
+LinkT("https://devv.ai/","2024.10.01","service, программирование, python","DevV","При помощи GPT, Gemini, Claude, Llama позволяет писать программы на Питоне. Так же автоматически ищет куски кода на страницах web.");
 LinkT("https://app.giz.ai/assistant/","2024.10.01","service, search, AI, news, image, audio, writer","GizAI","OpenAI, GPT, Gemini, Claude, Llama, Mistral - все эти модели собраны для чатов, поиска новостей и др (YouTube , PDF, URLs)");
 LinkT("https://downdetector.com/","2024.08.21","online, test","Downdetector.com","Английский сервис для отслеживания работы рызличных сайтов и программ (telegram, skype, whatsapp, youtube, steam, microsoft, google, spotify, reddit, gmail, openai, tiktok)");
 LinkT("https://downdetector.su/","2024.08.21","online, test","Downdetector","Русский сервис для отслеживания работы рызличных сайтов и программ (telegram, skype, whatsapp, youtube, steam, кинопоиск, вконтакте)");
