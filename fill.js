@@ -45,6 +45,8 @@ LinkT("http://prostopleer.com/","2023.07.13","MP3,online,музыка,серви
 
 LinkT("https://commonvoice.mozilla.org/ru/datasets","2023.08.01","dataset,программирование","Наборы данных","Голоса разных дикторов читают короткие фразы. Обучающий набор. Мультиязычный набор данных Common Voice.");
 
+LinkT("https://www.printkick.com/tools/image-colour-match","2025.01.22","DTP, pantone","Find Colour on Image and Match to PANTONE","По загруженной картинке подбирает наиболее похожие краски из каталога пантонов.");
+
 LinkT("https://habr.com/ru/articles/820343/","2024.06.01","software, windows, варез","Как загрузить, установить Office 2024 LTSC с сайта Microsoft и активировать навсегда","Excel и Word выбирайте для установки Актуальный канал (Current Channel). Office Deployment Tool и OHook activation. Альтернатива msfree.su");
 LinkT("https://www.coffeeboss.eu/katalog-tovarov/","2024.03.01","store, магазин, покупки","Кофебосс","Магазин чай (листовой, рассыпной) и кофе. Доставка.");
 LinkT("https://www.btmet.com/","2023.01.12","torrent, search, online","BRMET","Поиск по торрентам (среди магнитных ссылок). Возможность просмотра через сайт mypikpak.com");
@@ -515,7 +517,6 @@ LinkT("http://www.csin.ru/courses/samoobuchayushchiesya-sistemy-i-nechetkaya-log
 LinkT("http://delphiday.blogspot.com/2010/05/delphi.html","1274380800","Delphi,Андеграунд","Delphi Day: Delphi. Как написать лоадер","");
 LinkT("http://abc.times.lv/","1274175477","Латвия,перевод,сервис","Abc.times.lv | Многоязычный словарь","");
 LinkT("http://www.tineye.com/","1273733134","graphics,поиск,foto,фото,графика","TinEye Reverse Image Search","<DD>поиск картинок, похожую на какую-то твою");
-LinkT("http://www.zedimage.com/pms-cmyk-hex.php","1273646387","DTP","Pantone CMYK HEX","<DD>таблица Пантонов (Pantone)");
 LinkT("http://www.nirsoft.net/freeware_links.html","1273391455","advanced,admin,freeware,windows,бесплатно","Freeware Links","<DD>бесплатные программы и ссылки на другие программы: пароли (Опера, *** и пр.), и много-много прочего собраны в одной удобной оболочке Windows System Control Center с возможностью быстрого поиска");
 LinkT("http://elibrary.ru/defaultx.asp","1272998919","математика,статьи,образование,библиотека,russian","eLIBRARY.RU - НАУЧНАЯ ЭЛЕКТРОННАЯ БИБЛИОТЕКА","");
 LinkT("http://www.webdelphi.ru/","1272868404","Delphi,russian,blog","Delphi в Internet","<DD>модули, компоненты, приложения для работы в Интернет");
