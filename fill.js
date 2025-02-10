@@ -2,7 +2,7 @@
 // КУЧА закладок от Владимира Чаплинского
 //LinkT("http","2025.01.01","keyword","Title","descr");
 //
-LinkT("https://www.birme.net/","2025.02.01","service, ML, picture","Bulk image resize","Сервис онлайновой обрезки и изменения размера дла массы фотографий. Для создания датасетов.");
+LinkT("https://www.birme.net/","2025.02.01","service, ML, picture","Bulk image resize","Сервис онлайновой обрезки и изменения размера для массы фотографий. Для создания датасетов (ML обучение).");
 LinkT("https://hr.maniveselibasdati.lv/","2025.01.13","Latvia, Латвия, медицина","Mani veselības dati","Сервис медицинских данных. Автоматическая подгрузка результатов анализа с Gilbja labolatorija и Centrālā labolatorija. Визиты врача, диагнозы, медикаменты, обследования.");
 LinkT("https://www.dynu.com/","2024.08.01","service, internet, dns","Dynu {d}dns","Динамический бесплатный DNS в дополнение к no-ip.org. SSL Certificate (платно).");
 LinkT("https://openmodeldb.info/","2024.10.20","ComfyUI, AI, denoise, upscale","OpenModelUpscale","Большой набор моделей для увеличения (фото, аниме, шумные фото). Почти все на основе ESRGAN. Cреди них есть для уменьшения шумов.");
