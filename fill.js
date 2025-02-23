@@ -1,7 +1,8 @@
 // Кириллический текст в виндовс кодровке UTF-8
 // КУЧА закладок от Владимира Чаплинского
-//LinkT("http","2025.01.01","keyword","Title","descr");
+//LinkT("http","2025.02.01","keyword","Title","descr");
 //
+LinkT("https://gitingest.com/","2025.02.20","github, service, LLM, AI","Prompt-friendly codebase","Сервис, который даёт выжимку из любого репозитория на гитхабе. Эту суммаризаию кода и документации даем как часть промпта.");
 LinkT("https://www.birme.net/","2025.02.01","service, ML, picture","Bulk image resize","Сервис онлайновой обрезки и изменения размера для массы фотографий. Для создания датасетов (ML обучение).");
 LinkT("https://hr.maniveselibasdati.lv/","2025.01.13","Latvia, Латвия, медицина","Mani veselības dati","Сервис медицинских данных. Автоматическая подгрузка результатов анализа с Gilbja labolatorija и Centrālā labolatorija. Визиты врача, диагнозы, медикаменты, обследования.");
 LinkT("https://www.dynu.com/","2024.08.01","service, internet, dns","Dynu {d}dns","Динамический бесплатный DNS в дополнение к no-ip.org. SSL Certificate (платно).");
