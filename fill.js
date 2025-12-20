@@ -1,8 +1,8 @@
 // Кириллический текст в виндовс кодровке UTF-8
 // КУЧА закладок от Владимира Чаплинского
-//LinkT("http","2025.07.01","keyword","Title","descr");
+//LinkT("http","2025.07.01","keyword","GitHub project search","descr");
 //
-
+LinkT("https://gitdb.net/?language=Python&min_stars=100&sort=monthly","2025.12.19","git, github, service, search, поиск","Project serach and Discovery","поисковик по репозиториям GitHub, который собирает самое ценное и актуальное (сортировка по популярности репозитория)");
 LinkT("https://huggingface.co/spaces/mteb/leaderboard","2025.07.01","LLM, ИИ, AI, MLearning","Embeddings liderboard","Таблица лучших нейросетей для создания эмбеддингов (русский, английский и другие языки). E5, FRIDA.");
 LinkT("https://image-compare.netlify.app/","2025.06.28","online, tool, compare, image","Image compare","Удобный инструмент для визуального сравнения фотографий прямо в браузере.");
 LinkT("https://web.archive.org/web/20250328085637/https://onehack.us/t/the-biggest-osint-resources-on-the-planet/301978","2025.04.02","tools, online, service","OSINT","Набор ссылок на инструменты разведки и сбора информации. OSINT означает разведывательную информацию с открытыми источниками: Карты, геолокация, транспорт, Природа, Авиация, Морской, Железнодорожный, Маршруты, Политика, конфликты, кризис, Вид на улицу, Социальные сети, Гитхаб.");
