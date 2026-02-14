@@ -618,7 +618,6 @@ LinkT("http://finance.yahoo.com/q?s=^DJI","1249547848","csv","^DJI: Summary for 
 LinkT("http://www.micex.ru/marketdata/indices/data/archive","1249541740","csv","ММВБ / Индексы и котировки / Индексы и индикаторы / Данные / Архив значений индексов","");
 LinkT("http://rezekneszinas.lv/","1249451498","Латвия,Rezekne,новости","PUBLIKA.LV","<DD>новости Резекне");
 LinkT("http://kombat.com.ua/stat.html","1249396440","статьи","Выживание в экстремальных условиях и ситуациях, статьи по выживанию в лесу, пустыне, в городе, море, океане, тайге, наборы и комплекты для выживания, самозащита, добыча воды и пищи, изготовление оруди","");
-LinkT("http://www.aif.ru/onlineconf/414","1249393909","экономика","Настоящий кризис ещё впереди? - Аргументы и Факты","<DD>статья Хазина и ответы по поводу экономики");
 LinkT("http://www.tkweb.eu/en/delphicomp/kgrid.html","1249034790","Delphi,delphi компоненты","tkweb - Delphi components","<DD>KGrid версия  бесплатная улучшенная замена контролов из Grids.pas (TStringGrid и TDrawGrid). Unicode");
 LinkT("http://www.warandpeace.ru/ru/commentaries/view/37868/","1248930862","Латвия,экономика","Эрнест Буйвид : В Латвии прирост ВВП, а у европейцев – повышение зарплат - ВОЙНА и МИР","<DD>статья 2007 года с анализом экономики и развития латвии после 1990 года.");
 LinkT("http://www.1188.lv/","1248550068","сервис,справки,Латвия,каталог","1188 справки, поезда, автобусы","<DD>расписание движения, поиск");
@@ -638,7 +637,6 @@ LinkT("http://www.cpu-cool.de/","1242576459","software,программа","Podi
 LinkT("http://www.pobediteli.ru/flash.html?DR=0","1241899472","энциклопедии,образование,календарь","Победители. История Великой Отечественной войны","<DD>flash");
 LinkT("http://kopona.com/","1241367070","graphics,design,дизайн,графика","Фотошоп,шаблоны фотошопа бесплатно,psd,скачать рамки,кисти,шрифты,плагины,клипарт,программы всё для дизайна скачать бесплатно","<DD>рамки");
 LinkT("http://www.panvasoft.com/rus/blog/486/","1239134980","advanced,windows","Установка Windows XP при помощи флешки (bootable Flash)","");
-LinkT("http://www.nasdaqomxbaltic.com/market/?pg=isearch&amp;otsi=swedbank","1238849397","экономика,Латвия,сервис","Swedbank NASDAQ OMX Baltic","<DD>ханзовские фонды");
 LinkT("https://helgeklein.com/setacl/","1238827645","software,windows,admin,программа,advanced","SetACL - Windows permission management","<DD>управление правами доступа до регистра и файлов из командной строки");
 LinkT("http://www.exploders.info/forums.php","1238702266","forum,химия,наука,форум","Форум о Взрывчатых Веществах и Пиротехнике","<DD>масса доморощенных рецептов ВВ, термита, напалма и пр.");
 LinkT("http://www.woosie.net/fracfan/index.php","1238339036","graphics,фракталы,forum,форум,графика","FracFan Forum - Apophysis Help","<DD>основной форум по Apophysis фракталам");
@@ -690,7 +688,6 @@ LinkT("http://www.msfn.org/board/boot-install-USB-key-t61384.html","1226659439",
 LinkT("http://feedex.net/","1225827874","generator,internet,online,сервис,генератор","Feed Expander [beta]","<DD>расширитель RSS лент - из короткого длинное писание");
 LinkT("http://wput.sourceforge.net/","1225381787","internet,freeware,software,бесплатно,программа","Home of wput","<DD>заливка файлов на ftp из командной строки!");
 LinkT("http://www.prodelphi.de/","1225137672","Delphi,software,программа","Delphi profiler, Kylix profiler and Delphi debug terminal","");
-LinkT("http://www.polit.ru/lectures/publ_lect/","1224933036","статьи,экономика","ПОЛИТ.РУ  ПУБЛИЧНЫЕ ЛЕКЦИИ","");
 LinkT("http://www.mama.lv/index.php?id=map&amp;lang=lv","1224751536","справки,Латвия","MAMA.LV","<DD>карты, фирмы");
 LinkT("http://www.1189.lv/ru/","1224751370","справки,Латвия","Справки, телефоны - 1189","Каталог, карта с магазинами, отдыхом, поликлинниками и пр., транспорт");
 LinkT("http://www.viss.lv/index.php?a=m&amp;l=rus","1224750436","справки,Латвия","www.viss.lv - Информация о Латвии. Товары и услуги в Латвии. Карта Латвии, гостинницы, гостинные дома, ночлег","<DD>каталог страниц");
