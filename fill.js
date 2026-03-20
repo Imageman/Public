@@ -1,7 +1,8 @@
 // Кириллический текст в виндовс кодровке UTF-8
 // КУЧА закладок от Владимира Чаплинского
-//LinkT("http","2025.07.01","keyword","GitHub project search","descr");
+//LinkT("http","2026.07.01","keyword","GitHub project search","descr");
 //
+LinkT("https://aknigi.org/","2026.07.01","MP3, torrent, audio, аудиокниги","Aknigi.org","Аудиокниги. Относительно много. Скачивание через торрент.");
 LinkT("https://gitdb.net/?language=Python&min_stars=100&sort=monthly","2025.12.19","git, github, service, search, поиск","Project serach and Discovery","поисковик по репозиториям GitHub, который собирает самое ценное и актуальное (сортировка по популярности репозитория)");
 LinkT("https://huggingface.co/spaces/mteb/leaderboard","2025.07.01","LLM, ИИ, AI, MLearning","Embeddings liderboard","Таблица лучших нейросетей для создания эмбеддингов (русский, английский и другие языки). E5, FRIDA.");
 LinkT("https://image-compare.netlify.app/","2025.06.28","online, tool, compare, image","Image compare","Удобный инструмент для визуального сравнения фотографий прямо в браузере.");
