@@ -1,7 +1,8 @@
 // Кириллический текст в виндовс кодровке UTF-8
 // КУЧА закладок от Владимира Чаплинского
-//LinkT("http","2026.07.01","keyword","GitHub project search","descr");
+//LinkT("http","2026.09.01","keyword","GitHub project search","descr");
 //
+LinkT("https://www.worldtimebuddy.com/?pl=1&lid=456172,524901,5128581,756135&h=456172&hf=1","2026.09.01","time","Time converter","Наглядно показывает время в разных временных зоных (в том числе на протяжении дня), день недели и выходные.");
 LinkT("https://www.flightradar24.com/56.63,26.47/8","2026.06.07","Латвия, Латгалия, авиация","карта Flightradar24","Воздушная обстановка над восточной Латвией: самолеты с транспондером, вертолеты.");
 LinkT("https://aknigi.org/","2026.07.01","MP3, torrent, audio, аудиокниги","Aknigi.org","Аудиокниги. Относительно много. Скачивание через торрент.");
 LinkT("https://gitdb.net/?language=Python&min_stars=100&sort=monthly","2025.12.19","git, github, service, search, поиск","Project serach and Discovery","поисковик по репозиториям GitHub, который собирает самое ценное и актуальное (сортировка по популярности репозитория)");
