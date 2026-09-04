@@ -1,3 +1,5 @@
 tmp/
 run/
 *.bak
+# CocoIndex Code (ccc)
+/.cocoindex_code/

@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Закладки из fill.js</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tabulator-tables@6.3.1/dist/css/tabulator_midnight.min.css">
+  <style>
+    :root { color-scheme: dark; font-family: Inter, system-ui, sans-serif; background: #101318; color: #e7ecf3; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-width: 320px; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px clamp(16px, 4vw, 48px); border-bottom: 1px solid #293140; background: #151a22; }
+    h1 { margin: 0 0 6px; font-size: clamp(1.25rem, 2.5vw, 1.8rem); }
+    #status { margin: 0; color: #aab6c8; font-size: .93rem; }
+    main { display: grid; grid-template-columns: minmax(0, 1fr) minmax(290px, 23vw); gap: 18px; padding: 18px clamp(16px, 4vw, 48px) 32px; }
+    .toolbar, .similar { background: #171d27; border: 1px solid #2b3545; border-radius: 10px; }
+    .toolbar { padding: 12px; margin-bottom: 14px; display: flex; align-items: center; gap: 12px; }
+    #search { width: 100%; min-width: 0; border: 1px solid #42516a; border-radius: 7px; padding: 10px 12px; background: #0e131b; color: inherit; font: inherit; }
+    #search:focus { outline: 2px solid #56a8ff; outline-offset: 1px; }
+    #clear { border: 1px solid #42516a; border-radius: 7px; padding: 9px 12px; background: #252f40; color: inherit; cursor: pointer; white-space: nowrap; }
+    .theme-toggle { border: 1px solid #42516a; border-radius: 7px; padding: 9px 12px; background: #252f40; color: inherit; cursor: pointer; white-space: nowrap; }
+    .theme-toggle:hover { background: #33445f; }
+    #table { border-radius: 10px; overflow: hidden; }
+    .similar { min-width: 0; padding: 16px; height: fit-content; position: sticky; top: 16px; }
+    .similar h2 { margin: 0 0 8px; font-size: 1.05rem; }
+    .hint { margin: 0; color: #aab6c8; line-height: 1.45; font-size: .92rem; }
+    .similar-list { min-width: 0; list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 8px; }
+    .similar-list li { min-width: 0; }
+    .similar-list a { display: block; width: 100%; min-width: 0; overflow-wrap: anywhere; text-align: left; border: 1px solid #334156; border-radius: 7px; padding: 8px 9px; background: #111722; color: inherit; cursor: pointer; font-size: .86rem; text-decoration: none; }
+    .similar-list a:hover { background: #202b3d; border-color: #5e88b7; }
+    .similar-list .similar-description { color: #aab6c8; display: block; margin-top: 3px; font-size: .8rem; line-height: 1.35; }
+    .tabulator { border: 1px solid #2b3545; background: #10151e; font-size: .9rem; }
+    .tabulator .tabulator-header { background: #1b2330; border-bottom-color: #2b3545; }
+    .tabulator .tabulator-row { background: #10151e; border-bottom-color: #222c3b; }
+    .tabulator .tabulator-row.tabulator-row-even { background: #141b26; }
+    .tabulator .tabulator-row:hover { background: #1d2939; }
+    .tabulator .tabulator-tableholder .tabulator-cell { white-space: normal; line-height: 1.35; }
+    .cell-clamp { display: -webkit-box; width: 100%; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+    .tags-inline { white-space: normal; }
+    .site-inline { display: block; width: 100%; max-height: calc(5 * 1.35em + 2px); overflow: hidden; }
+    .site-inline .tag-button { vertical-align: baseline; }
+    :root[data-theme="light"] { color-scheme: light; background: #f4f7fb; color: #182233; }
+    :root[data-theme="light"] header { border-color: #ccd7e5; background: #ffffff; }
+    :root[data-theme="light"] #status, :root[data-theme="light"] .hint, :root[data-theme="light"] .similar-description { color: #566477; }
+    :root[data-theme="light"] .toolbar, :root[data-theme="light"] .similar { border-color: #ccd7e5; background: #ffffff; }
+    :root[data-theme="light"] #search { border-color: #9eafc4; background: #f9fbfe; color: #182233; }
+    :root[data-theme="light"] #clear, :root[data-theme="light"] .theme-toggle { border-color: #9eafc4; background: #e8eef6; color: #182233; }
+    :root[data-theme="light"] .theme-toggle:hover { background: #dae5f2; }
+    :root[data-theme="light"] .tabulator { border-color: #ccd7e5; background: #ffffff; color: #182233; }
+    :root[data-theme="light"] .tabulator .tabulator-header { border-bottom-color: #ccd7e5; background: #eaf0f7; color: #182233; }
+    :root[data-theme="light"] .tabulator .tabulator-row { border-bottom-color: #e0e7f0; background: #ffffff; color: #182233; }
+    :root[data-theme="light"] .tabulator .tabulator-row.tabulator-row-even { background: #f7f9fc; }
+    :root[data-theme="light"] .tabulator .tabulator-row:hover { background: #e9f3ff; }
+    :root[data-theme="light"] .similar-list a { border-color: #c4d1e1; background: #f8fbff; color: #182233; }
+    :root[data-theme="light"] .similar-list a:hover { border-color: #6c9ed0; background: #e9f3ff; }
+    :root[data-theme="light"] .tag-button { border-color: #86ad91; background: #e7f4e8; color: #205b2a; }
+    :root[data-theme="light"] .tag-button:hover, :root[data-theme="light"] .tag-button:focus-visible { border-color: #4d9860; background: #d7edda; }
+    :root[data-theme="light"] .url { color: #174f86; }
+    :root[data-theme="light"] .url:hover { color: #0b3762; }
+    .url { color: #6bb6ff; text-decoration: none; }
+    .url:hover { text-decoration: underline; }
+    .tag-button { border: 1px solid #3c714b; border-radius: 999px; padding: 2px 7px; margin: 2px 3px 2px 0; background: #1a3423; color: #b9e9bc; font: inherit; font-size: .83rem; cursor: pointer; }
+    .tag-button:hover, .tag-button:focus-visible { background: #285236; border-color: #7ac985; outline: none; }
+    @media (max-width: 900px) { main { grid-template-columns: 1fr; } .similar { position: static; order: -1; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Закладки</h1>
+      <p id="status">Импортируется fill.js…</p>
+    </div>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">Дневная тема</button>
+  </header>
+  <main>
+    <section aria-label="Таблица закладок">
+      <div class="toolbar">
+        <label for="search">Нечёткий поиск:</label>
+        <input id="search" type="search" autocomplete="off" placeholder="URL, название, описание или тег">
+        <button id="clear" type="button">Сбросить</button>
+      </div>
+      <div id="table"></div>
+    </section>
+    <aside class="similar" aria-live="polite">
+      <h2>Похожие записи</h2>
+      <p id="similar-hint" class="hint">Нажмите на строку, чтобы найти до 10 похожих записей.</p>
+      <ol id="similar-list" class="similar-list"></ol>
+    </aside>
+  </main>
+
+  <!-- fill.js исполняется как обычный JavaScript и вызывает LinkT для каждой записи. -->
+  <script>
+    window.bookmarkRows = [];
+    window.LinkT = function (url, date, tags, title, description) {
+      window.bookmarkRows.push({
+        id: window.bookmarkRows.length + 1,
+        url: String(url ?? ""),
+        date: String(date ?? ""),
+        tags: String(tags ?? ""),
+        title: String(title ?? ""),
+        description: String(description ?? "")
+      });
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tabulator-tables@6.3.1/dist/js/tabulator.min.js"></script>
+  <script>
+    function initViewer(sourceLabel) {
+      const rows = window.bookmarkRows;
+      const status = document.getElementById("status");
+      const search = document.getElementById("search");
+      const clear = document.getElementById("clear");
+      const similarHint = document.getElementById("similar-hint");
+      const similarList = document.getElementById("similar-list");
+
+      if (!rows.length) {
+        status.textContent = `${sourceLabel} не загрузился или не содержит записей LinkT().`;
+        return;
+      }
+
+      const fuse = new Fuse(rows, {
+        includeScore: true,
+        ignoreLocation: true,
+        // Короткие совпадения вроде "xx" не должны выдавать "xxx".
+        // Порог 0.20 сохраняет терпимость к одной опечатке в длинных словах.
+        threshold: 0.20,
+        minMatchCharLength: 3,
+        keys: [
+          { name: "title", weight: 0.42 },
+          { name: "tags", weight: 0.28 },
+          { name: "description", weight: 0.22 },
+          { name: "url", weight: 0.08 }
+        ]
+      });
+
+      const table = new Tabulator("#table", {
+        data: rows,
+        layout: "fitColumns",
+        height: "calc(100vh - 160px)",
+        virtualDom: true,
+        index: "id",
+        columnDefaults: { vertAlign: "middle" },
+        initialSort: [{ column: "date", dir: "desc" }],
+        columns: [
+          { title: "Сайт", field: "title", minWidth: 360, widthGrow: 1, headerSort: true, formatter: siteFormatter, tooltip: true, variableHeight: true },
+          { title: "Дата", field: "date", width: 104, hozAlign: "center", headerSort: true }
+        ]
+      });
+
+      table.on("rowClick", (_event, row) => showSimilar(row.getData()));
+      table.on("rowMouseEnter", (_event, row) => showSimilar(row.getData()));
+
+      status.textContent = `Импортировано записей: ${rows.length} (${sourceLabel}). Сортируйте кликом по заголовкам; поиск работает по всем полям.`;
+
+      let timer;
+      let shownSimilarId = null;
+      search.addEventListener("input", () => {
+        clearTimeout(timer);
+        timer = setTimeout(applySearch, 90);
+      });
+      clear.addEventListener("click", () => {
+        search.value = "";
+        applySearch();
+      });
+
+      const queryFromAddress = readHashQuery();
+      if (queryFromAddress) {
+        search.value = queryFromAddress;
+        applySearch();
+      }
+
+      function applySearch(updateAddress = true) {
+        const query = search.value.trim();
+        if (updateAddress) writeHashQuery(query);
+        if (!query) {
+          table.clearFilter();
+          status.textContent = `Импортировано записей: ${rows.length} (${sourceLabel}). Фильтр сброшен.`;
+          return;
+        }
+        const ids = new Set(fuse.search(query).map(result => result.item.id));
+        table.setFilter(data => ids.has(data.id));
+        status.textContent = `Найдено: ${ids.size} из ${rows.length}. Нечёткий поиск: «${query}».`;
+      }
+
+      function readHashQuery() {
+        try {
+          return decodeURIComponent(window.location.hash.slice(1));
+        } catch {
+          return window.location.hash.slice(1);
+        }
+      }
+
+      function writeHashQuery(query) {
+        const hash = query ? `#${encodeURIComponent(query)}` : "";
+        window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}${hash}`);
+      }
+
+      function showSimilar(selected) {
+        if (shownSimilarId === selected.id) return;
+        shownSimilarId = selected.id;
+        const matches = findSimilar(selected);
+        similarList.replaceChildren();
+        similarHint.textContent = matches.length
+          ? `Похожие на «${selected.title}» (по названию, тегам и описанию):`
+          : `Для «${selected.title}» похожих записей не найдено.`;
+        for (const result of matches) {
+          const item = document.createElement("li");
+          const link = document.createElement("a");
+          link.href = result.item.url;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          const title = document.createElement("strong");
+          title.textContent = result.item.title || result.item.url;
+          const description = document.createElement("span");
+          description.className = "similar-description";
+          description.textContent = result.item.description || result.item.tags;
+          link.append(title, description);
+          item.append(link);
+          similarList.append(item);
+        }
+      }
+
+      function findSimilar(selected) {
+        const terms = `${selected.title} ${selected.tags}`
+          .toLocaleLowerCase("ru-RU")
+          .split(/[\s,.;:/()[\]{}]+/)
+          .filter(term => term.length >= 3)
+          .slice(0, 10);
+        const scores = new Map();
+        for (const term of terms) {
+          for (const result of fuse.search(term, { limit: 30 })) {
+            if (result.item.id === selected.id) continue;
+            scores.set(result.item.id, (scores.get(result.item.id) ?? 0) + 1 - (result.score ?? 1));
+          }
+        }
+        return [...scores.entries()]
+          .sort((first, second) => second[1] - first[1])
+          .slice(0, 10)
+          .map(([id, score]) => ({ item: rows.find(row => row.id === id), score: 1 - Math.min(score / terms.length, 1) }));
+      }
+
+      function makeTagsElement(value) {
+        const container = document.createElement("span");
+        container.className = "tags-inline";
+        const tags = String(value ?? "").split(",").map(tag => tag.trim()).filter(Boolean);
+        for (const tag of tags) {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "tag-button";
+          button.textContent = tag;
+          button.title = `Искать: ${tag}`;
+          button.addEventListener("click", event => {
+            event.stopPropagation();
+            search.value = tag;
+            applySearch();
+            search.focus();
+          });
+          container.append(button);
+        }
+        return container;
+      }
+
+      function siteFormatter(cell) {
+        const data = cell.getRow().getData();
+        const url = data.url;
+        const content = document.createElement("span");
+        content.className = "site-inline";
+
+        const title = document.createElement("a");
+        title.className = "url";
+        title.href = url;
+        title.target = "_blank";
+        title.rel = "noopener noreferrer";
+        title.textContent = cell.getValue() || url;
+
+        const linkAnchor = document.createElement("a");
+        linkAnchor.className = "url";
+        linkAnchor.href = url;
+        linkAnchor.target = "_blank";
+        linkAnchor.rel = "noopener noreferrer";
+        linkAnchor.textContent = url;
+        content.append(title, " (", linkAnchor, "): ", data.description, " ", makeTagsElement(data.tags));
+        return content;
+      }
+
+      function escapeHtml(value) {
+        return String(value ?? "").replace(/[&<>'"]/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" })[char]);
+      }
+    }
+
+    const themeToggle = document.getElementById("theme-toggle");
+
+    function applyTheme(theme) {
+      const isLight = theme === "light";
+      document.documentElement.dataset.theme = isLight ? "light" : "dark";
+      themeToggle.textContent = isLight ? "Ночная тема" : "Дневная тема";
+      themeToggle.setAttribute("aria-pressed", String(isLight));
+    }
+
+    function readSavedTheme() {
+      try {
+        const saved = window.localStorage.getItem("fill-viewer-theme");
+        return saved === "light" || saved === "dark" ? saved : "dark";
+      } catch {
+        return "dark";
+      }
+    }
+
+    applyTheme(readSavedTheme());
+    themeToggle.addEventListener("click", () => {
+      const nextTheme = document.documentElement.dataset.theme === "light" ? "dark" : "light";
+      applyTheme(nextTheme);
+      try {
+        window.localStorage.setItem("fill-viewer-theme", nextTheme);
+      } catch {
+        // Браузер может запрещать localStorage для file://; тема всё равно сменится до обновления страницы.
+      }
+    });
+
+    function loadScript(source) {
+      return new Promise((resolve, reject) => {
+        const script = document.createElement("script");
+        script.src = source;
+        script.async = false;
+        script.onload = () => resolve(source);
+        script.onerror = () => {
+          script.remove();
+          reject(new Error(`Не удалось загрузить ${source}`));
+        };
+        document.head.append(script);
+      });
+    }
+
+    async function importBookmarks() {
+      const remote = "https://imageman.github.io/Public/fill.js";
+      try {
+        await loadScript(remote);
+        if (!window.bookmarkRows.length) throw new Error("Удалённый fill.js не содержит LinkT().");
+        return remote;
+      } catch {
+        window.bookmarkRows = [];
+        await loadScript("fill.js");
+        if (!window.bookmarkRows.length) throw new Error("Локальный fill.js не содержит LinkT().");
+        return "локальный fill.js";
+      }
+    }
+
+    (async () => {
+      const status = document.getElementById("status");
+      try {
+        const sourceLabel = await importBookmarks();
+        initViewer(sourceLabel);
+      } catch (error) {
+        status.textContent = `Не удалось импортировать удалённый или локальный fill.js: ${error.message}`;
+      }
+    })();
+  </script>
+</body>
+</html>
