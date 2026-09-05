@@ -2,6 +2,7 @@
 // КУЧА закладок от Владимира Чаплинского
 //LinkT("http","2026.09.01","keyword","GitHub project search","descr");
 //
+LinkT("https://arte.itlibra.com/ru/articles/rag-vector-database-implementation-guide","2026.09.01","LLM,MLearning,RAG","Руководство по vector DB / RAG","vector database, Late Chunking (+recursive 512) для комплексных чанков, Contextual Retrieval, embeddings, BM25, vector search, RRF, reranking, long context, LlamaIndex, LangGraph");
 LinkT("https://www.worldtimebuddy.com/?pl=1&lid=456172,524901,5128581,756135&h=456172&hf=1","2026.09.01","time","Time converter","Наглядно показывает время в разных временных зоных (в том числе на протяжении дня), день недели и выходные.");
 LinkT("https://www.flightradar24.com/56.63,26.47/8","2026.06.07","Латвия, Латгалия, авиация","карта Flightradar24","Воздушная обстановка над восточной Латвией: самолеты с транспондером, вертолеты.");
 LinkT("https://aknigi.org/","2026.07.01","MP3, torrent, audio, аудиокниги","Aknigi.org","Аудиокниги. Относительно много. Скачивание через торрент.");
@@ -227,7 +228,6 @@ LinkT("http://habrahabr.ru/post/271279/?utm_campaign=email_digest&utm_source=ema
 LinkT("http://chistilka.com/","2015.10.29","windows,программа,freeware,антивирус,безопасность","\"Чистилка\" - убиваем баннеры, рекламу, всплывающие окна","Ищет программы и расширения, которые показывают рекламу, меняют поисковик или стартовую страницу браузера. В дополнение к антивирусу");
 LinkT("http://www.freepik.com/","2015.10.29","фотосток,бесплатно,design,fotostock,foto,фото","Free vectors, photos and PSD Downloads | Freepik","Куча векторных и psd картинок (EPS), иконки");
 LinkT("http://www.ice-graphics.com/ICEECC/IndexR.html","2015.10.16","turbocodes,freeware,программа,бесплатно,software","ICE ECC","Утилита-\"архиватор\" для проверки и восстановления повреждённых файлов. ICE ECC защищает файлы от повреждения используя коды Рида-Соломона.");
-LinkT("http://www.trackitonline.ru/","2015.10.09","сервис,почта","Отслеживание почтовых отправлений. Trackitonline.","Автоматизированный сервис отслеживания почтовых отправлений, грузов, ЕМС, посылок, писем всего мира в одном окне.");
 LinkT("http://www.rmprepusb.com/tutorials/grub4dos/grub4dos-internal-variables-and-functions#TOC-Mapping-a-new-hard-disk","2015.10.04","advanced,english","Grub4dos Internal variables, memory areas, advanced features and function calls - RMPrepUSB","Уроки, faq, команды, примеры использования GrubB4dos для установки (загрузки) Windows, Linuч с USB флешки или HDD");
 LinkT("http://www.nvidia.ru/object/tesla-gpu-accelerated-libraries-cudnn-ru.html","2015.10.01","advanced,программирование,software,программа","GPU-Ускоренные библиотеки: NVIDIA cuDNN | NVIDIA","NVIDIA cuDNN – это библиотека с поддержкой GPU примитивов для глубинных нейронных сетей. Библиотека обеспечивает производительность CUDA.");
 LinkT("http://booktracker.org/","2015.09.30","образование,книги,torrent,russian,magazine,eBookz,book","Книжный трекер","FB2, MP3 (аудиокниги) и другие книги, журналы. Включая архивы библиотек Либрусек, Флибуста, Траума, Научные и технические библиотеки. Аудиокниг 14632 раздачи.");
@@ -290,26 +290,17 @@ LinkT("http://www.diakov.net/","2014.01.27","freeware,software,Варезник"
 LinkT("http://www.ntsomz.ru/electro/source_images","2014.01.23","foto,фото,наука,интересное","Научный центр мониторинга Земли (из космоса)","фото Земли в большом разрешении почти в реальном времени (с геостационарной орбиты) ftp");
 LinkT("https://color.adobe.com/ru/create/image/","2014.01.21","графика,дизайн,graphics,сервис,generator,генератор,DTP","Adobe Color (Kuler)","Генератор цветовых схем от Адоба. Create color schemes with the color wheel");
 LinkT("http://www.zennioptical.com/","2014.01.17","магазины","Eyeglasses Online - Buy Prescription Glasses & Eyeglass Frames | Zenni Optical","Магазин оптики. Очки (с возможностью примерки на фото, ввод с рецепта параметров очков). Тонированные, суперпрочные, просветленные, олеофобное покрытие. Из США-Китая");
-LinkT("http://forums.goha.ru/forumdisplay_0_0_3343","2014.01.15","форум,игры","Карты WoT","тактический разбор карт Word of Tanks");
-LinkT("http://habrahabr.ru/post/138946/","2013.11.27","алгоритм","Sqrt-декомпозиция (корневая оптимизация) / Хабрахабр","Sqrt-декомпозиция — это метод, или структура данных, позволяющая быстро проводить такие операции, как подсчет суммы на отрезке за O(sqrt(n)) и обновление элемента за O(1).");
+LinkT("https://habr.com/ru/articles/138946/","2013.11.27","алгоритм","Sqrt-декомпозиция (корневая оптимизация) / Хабрахабр","Sqrt-декомпозиция — это метод, или структура данных, позволяющая быстро проводить такие операции, как подсчет суммы на отрезке за O(sqrt(n)) и обновление элемента за O(1).");
 LinkT("http://rriai.org.ru/","2013.11.20","russian,алгоритм,интересное,математика,образование,программирование,статьи","Искусственный интеллект","Сайт по ИИ:  Принятие оптимальных решений,  Логические агенты, вывод, Обратный логический вывод,  Планирование, Правило Байеса, марковские модели, деревьев решений");
-LinkT("https://about.google/intl/ru/products/?tab=wh","2013.11.04","сервис,internet","Google Accounts","Управление персональными сервисами Гугла: Pacasa, Документы, Закладки, переводчик, история веб-поиска, история местоположений, календарь, карты, личный кабинет, оповещения, Аналитика, Тренды, Code, URL Shortener, Squared");
 LinkT("https://www.google.com/calendar/render?tab=wc","2013.10.24","Android,сервис","Google Calendar","Личный календарь-расписание (с Android синхронизацией)");
-LinkT("http://smart-core.org/wiki/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_%D0%B2%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0_%D0%BD%D0%B0_Windows","2013.10.09","advanced,admin,internet","Установка веб-сервера на Windows — Smart Core Wiki","Установка по русски: Apache, PHP, MySQL, Git, TortoiseGit, Composer, Memcache, XDebug, Redis, IIS");
-LinkT("http://www.re.be/webdav_sync/index.xhtml","2013.09.27","advanced,admin,freeware,программа,бесплатно","WebDav-Sync","бесплатная программа командной строки под Java для синхронизации с облаком (Box.com)");
 //LinkT("http://bash.im/","1379670835","russian","Цитатник Рунета","<DD>Юмор - анекдоты, истории, цитаты. Неиссякаемый источник.");
 LinkT("http://www.keepautomation.com/online_barcode_generator/ean_13/","2013.09.05","DTP,online,generator,сервис","EAN-13 Barcode Generator Free Online","Free Online EAN-13 Barcode Generator. Генерирует штрихкод (с дополнительными цифрами тоже)");
 LinkT("https://www.google.com/contacts/","2013.09.01","Android","Контакты Google","Доступ до телефонной книги андроидфона (удаление дубликатов, добавление групп, фото и пр.)");
-LinkT("http://devfaq.ru/search?tagid[1]=1247&tagid[2]=1&s=","2013.08.28","Android,russian","FAQ по android, operating system - DevFAQ","Ответы на частые вопросы пользователей Android, iOS, Windows");
-LinkT("http://www.4tablet-pc.net/","2013.08.26","blog,обзоры,Android","Планшеты - новости, обзоры, прошивки, программы, советы, форум | 4Tablet-PC","Планшетные компьютеры, андроид планшеты, программы для планшетов, прошивки,  инструкции, программы, живые обои, обсуждение, обзор, форум, цены, как купить планшет,");
 LinkT("https://www.google.com/android/devicemanager","2013.08.25","Android,сервис,безопасность","Android Device Manager","Ищем и звоним на свой телефон! Android Device Manager makes it easy to locate, ring, or wipe your device from the web.");
 LinkT("http://www.bilesuparadize.lv/","2013.08.19","музыка,сервис,развлечение,Латвия","Bilesu paradize","электронная покупка билетов на концерты");
 LinkT("https://moyaposylka.ru/","2013.07.31","сервис","Отслеживание почтовых отправлений служб многих стран","Отслеживание почтовых отправлений (посылок) по трек-номеру. Автоматический мониторинг корреспонденции большинства мировых почтовых служб, email-информирование (проверено)");
 LinkT("http://cwer.ws/category/4359/","2013.07.25","книги,MP3,book,программа,Варезник","Cwer.ru: Варезник и Аудиокниги","Варез портал: программы, графика, игры, фильмы, книги, android-soft и прочее. Скачка с LetItBit.net | ShareFlare.net | DepositFiles.com и пр.");
 LinkT("http://www.monkrus.ws/","2013.07.18","graphics,программа,DTP,Варезник","Варез от m0nkrus [Warez by m0nkrus]","программы от Adobe (InDesign, Dreamweaver, Illustrator, Photoshop) и Autodesk (AutoCAD) быстро и просто");
-LinkT("http://wot-news.com/","2013.06.20","игры","Wot-news.com - новости танков World of tanks","Можно посмотреть свой рейтинг, статьи, моды, озвучка, заставки и т.п.");
-LinkT("https://github.com/svn2github/peerproject/blob/master/Data/DefaultServices.dat","2013.06.18","p2p","peerproject/Data/DefaultServic es.dat at master · svn2github/peerproject · GitHub","Список серверов с точками входа в Gnutella2 - bootstrap");
-LinkT("http://tenafly5k.com/gwc/skulls.php?showhosts=1&net=all","2013.06.18","p2p","Skulls! Multi-Network WebCache 0.2.8","Gnutella2 список точек входа - bootstrap");
 LinkT("http://www.aviokases.lv/ru/","2013.06.15","сервис,Латвия","Авиабилеты airBaltic, Ryanair, WizzAir, Aeroflot, Lufthansa, CSA, LOT, SAS, Finnair, S7, Aerosvit, KLM","поиск недорогих билетов на авиарейсы самолетов");
 LinkT("https://4pda.to/","2024.09.04","форум,hardware,Android","4PDA — мобильные устройства и технологии","Актуальный портал и форум о мобильных устройствах: новости, обзоры, инструкции и обсуждения Android и другой техники.");
 LinkT("http://www.artdudecreative.com/pms/","2013.05.24","DTP","Pantone Colors","большая таблица пантонов (цветные квадратики)");
@@ -381,7 +372,6 @@ LinkT("http://www.mind-projects.it/projects/jqzoom/demos.php#demo1","2012.08.03"
 LinkT("http://odyniec.net/projects/imgareaselect/","2012.08.03","программирование,JavaScript","imgAreaSelect - image selection/cropping jQuery plugin","позволяет выбрать на картинке любую область (возвращаются координаты прямоугольника)");
 LinkT("https://github.com/bebraw/jswiki/wiki/_pages","2012.08.03","JavaScript,программирование","Pages · bebraw/jswiki Wiki · GitHub","jswiki - JavaScript wiki. JS/HTML5/WebGL большой набор библиотек рассортированный по темам (работа с графикой, презентации, движки игр, физические движки, Canvas, Audio, Animation)");
 LinkT("https://github.com/Y-Vladimir/SmartDeblur","2012.07.27","фото,freeware,программа","Y-Vladimir/SmartDeblur · GitHub","SmartDeblur - Restoration of defocused and blurred photos/images. Увеличение резкости размазанных фото");
-LinkT("http://padabum.com/","2012.07.25","книги","Padabum - cкачать книги бесплатно","Упор на техническую литературу. Есть сортировка по рейтингу. Скачать книги бесплатно");
 LinkT("http://mudcu.be/sphere/#","2012.07.16","design,сервис,graphics,generator","Sphere: Color Theory Visualizer","наглядный генератор цветовых схем");
 LinkT("http://colorschemedesigner.com/","2012.07.16","design,graphics,generator,сервис","Color Scheme Designer 3","Продвинутый генератор цветовых схем (2, 3, 4 цвета)");
 LinkT("http://openweathermap.org/city/456202","2012.07.16","сервис,Латвия,internet","OpenWeatherMap. Forecast for Rezekne","A layer with current weather conditions in cities for Openstreetmap. Сайт о погоде. Текущая погода по всему миру. есть API");
@@ -502,7 +492,6 @@ LinkT("http://elibrary.ru/defaultx.asp","2010.05.04","математика,ст�
 LinkT("http://www.webdelphi.ru/","2010.05.03","Delphi,russian,blog","Delphi в Internet","модули, компоненты, приложения для работы в Интернет");
 LinkT("http://www.tdelphiblog.com/","2010.05.03","Delphi,blog,russian","TDelphi: будни Delphi блоггера","описание  CnPack, JVCL и JCL");
 LinkT("http://habrahabr.ru/blogs/biotech/85634/#habracut","2010.04.30","медицина,алгоритм,russian,образование","Иммунная система человека: биологический антивирус. Антивирусные базы / Биотехнологии / Хабрахабр","познавательная статья о том, как работает наш иммунитет");
-LinkT("http://books.tr200.ru/","2010.04.29","библиотека,дом,книги","Книги. Журналы. Аудиокниги. Бесплатно скачать.","djvu и pdf - книги и журналы");
 LinkT("https://www.banggood.com/","2016.09.04","магазины,english,оборудование","Banggood — международный магазин электроники и гаджетов","Международный интернет-магазин электроники, компьютерных товаров, инструментов и других гаджетов.");
 LinkT("http://www.spamhaus.org/sbl/listings.lasso?isp=microlines.lv","2010.04.21","internet","The Spamhaus Project - SBL","");
 LinkT("https://rdpwrapper.org/","2020.09.04","admin,Windows 7,windows","RDP Wrapper — многосессионный Remote Desktop для Windows","Современный проект для расширения возможностей Windows Remote Desktop, включая поддержку нескольких RDP-сессий.");
@@ -526,7 +515,6 @@ LinkT("http://www.quickpar.org.uk/VerifyingAndRepairing.htm","2010.02.16","turbo
 LinkT("http://www.transhumanism-russia.ru/content/view/378/171/","2010.02.16","медицина,статьи","Ноотропы -  Трансгуманистическое Движение","описание ноотропных препаратов Глицин, Пирацетам, Амфетамин, Прозак, Фенотропил, Модафинил, Риталин и т.д.");
 LinkT("http://habrahabr.ru/blogs/artificial_intelligence/83995/","2010.02.12","MLearning,алгоритм","Об обучении нейросетей / Искусственный интеллект / Хабрахабр","");
 LinkT("http://habrahabr.ru/blogs/3d_graphics/83434/#habracut","2010.02.08","foto,фото","Создание круговых панорам (flash) / Хабрахабр","Panosalado для экспорта в flash (или Pano2VR)");
-LinkT("http://www.morepc.ru/monitor/crt/pcw200604032.html?print","2010.02.03","DTP,hardware","MorePC.ru: 27.02.2006. Калибраторы начального уровня для мониторов","");
 LinkT("http://forums.rusmedserv.com/forumdisplay.php?f=58","2010.01.24","forum,медицина,форум","Оториноларингология - Русского Медицинского Сервера","");
 LinkT("http://alfoto.lv/","2010.01.21","foto,Латвия,фото","Aleksandrs Lebeds - foto","фото Лебедя");
 LinkT("http://blog.synopse.info/post/2009/12/20/Enhanced-Run-Time-library-for-Delphi-7","2010.01.19","Delphi","Enhanced Run Time library for Delphi 7 - Synopse","улучшения для Delphi 7 - ускорение некоторых системных функций");
@@ -748,7 +736,6 @@ LinkT("http://www.kinopoisk.ru/level/20/year/2000/","2008.01.03","top,фильм
 LinkT("http://www.ag.ru/","2007.10.17","игры,каталог","AG.ru // Компьютерные игры, коды на игры, обзоры, коды к играм, прохождения, патчи","");
 LinkT("http://www.trident.com.ua/ru/on-line","2007.12.29","english,converter,сервис,Латвия","Pragma он-лайн перевод","английский, русский, латышский, немецкий, украинский и другие языки для перевода текстов.");
 LinkT("http://technet.microsoft.com/ru-ru/sysinternals/default(en-us).aspx","2007.12.25","freeware,advanced,admin,windows,безопасность,software,бесплатно,программа","Windows Sysinternals: Documentation, downloads and additional resources","");
-LinkT("http://www.my-lib.ru","2007.12.24","сервис,рекомендации,библиотека,book,книги","Моя библиотека :: социальная сеть любителей книг ::","позволяет найти интересную книгу за минимальное время");
 LinkT("http://www.dnsbl.au.sorbs.net/using.shtml","2007.12.23","почта,internet,сервис","Спам - Using SORBS","антиспам списки");
 LinkT("https://deepmachinelearning.ru/docs/Neural-networks/Special-architectures/RBF-networks","2016.09.04","MLearning,алгоритм,нейросети","Radial Basis Function — радиально-базисные нейронные сети","Объяснение радиально-базисных функций и принципов работы RBF-сетей в машинном обучении.");
 LinkT("http://gmdidro.googlepages.com/Wavelets_and_Its_application.html","2007.12.21","статьи,jpeg2000,наука,программирование,фракталы","Вейвлеты и их приложения. Обзор","");
@@ -801,7 +788,6 @@ LinkT("https://algolist.ru/","2019.09.04","Delphi,алгоритм,програ�
 LinkT("http://www.opennet.ru/docs/RUS/inet_book/2/28/corec_28.html","2007.09.30","алгоритм,turbocodes","Коррекция ошибок","код Хэмминга, Циклические коды, Линейные блочные коды");
 LinkT("http://www.programmersforum.ru","2007.09.29","Delphi,forum,программирование,форум","Форум программистов","");
 LinkT("http://www.delphibasics.ru","2007.09.29","Delphi","Справочник - \"Основы Delphi\"","");
-LinkT("http://dtpcraft.info","2007.09.29","DTP,статьи","DTP Craft","");
 LinkT("http://www.wunderground.com/cgi-bin/findweather/getForecast?query=rezekne","2007.09.29","Rezekne,weather,погода","Rezekne, Latvia Forecast : Weather Underground","");
 LinkT("http://read.excode.ru/arttopic7.html","2007.09.29","статьи,Delphi,справки,алгоритм,программирование","Delphi/Pascal > - скачать бесплатно","");
 LinkT("http://zanoza.lv/blog/gordon/529","2007.09.29","наука,magazine,статьи,образование","Список стенограмм передачи Гордона","");
@@ -824,7 +810,6 @@ LinkT("http://search.metacrawler.com","2007.09.28","поиск","MetaCrawler Web
 LinkT("http://www.zl.lv/portal/?lang=ru","2007.09.28","справки,поиск,Латвия,каталог","zl.lv","");
 LinkT("http://www.salidzini.lv","2007.09.28","магазин,поиск,Латвия","Salidzini.lv - Latvijas internetveikalu cenu","Поиск товаров по латвийским интернет-магазинам (каталог, топ)");
 LinkT("http://www.myfonts.com/WhatTheFont/","2007.09.28","fonts,DTP,шрифт","WhatTheFont : MyFonts","определитель шрифтов по загруженному образцу");
-LinkT("http://fotoknigi.org","2007.09.28","foto,библиотека,book,книги,фото","Книги и статьи по фотографии и обработке фото","");
 LinkT("http://www.istockphoto.com/popular.php","2007.09.28","foto,top,фото,fotostock,фотосток","Popular Photos: Browse great images and photographs | iStockphoto.com","");
 LinkT("http://www.dreamstime.com/login.php","2007.09.28","fotostock,фотосток","Dreamstime","");
 LinkT("http://www.fotolia.com","2007.09.28","fotostock,фотосток","Fotolia.com","");
