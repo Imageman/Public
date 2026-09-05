@@ -28,6 +28,7 @@
     .similar-list li { min-width: 0; }
     .similar-list a { display: block; width: 100%; min-width: 0; overflow-wrap: anywhere; text-align: left; border: 1px solid #334156; border-radius: 7px; padding: 8px 9px; background: #111722; color: inherit; cursor: pointer; font-size: .86rem; text-decoration: none; }
     .similar-list a:hover { background: #202b3d; border-color: #5e88b7; }
+    .similar-list .similar-url { color: #7f8da3; font-size: .72rem; font-weight: 400; }
     .similar-list .similar-description { color: #aab6c8; display: block; margin-top: 3px; font-size: .8rem; line-height: 1.35; }
     .tabulator { border: 1px solid #2b3545; background: #10151e; font-size: .9rem; }
     .tabulator .tabulator-header { background: #1b2330; border-bottom-color: #2b3545; }
@@ -78,7 +79,7 @@
   <main>
     <section aria-label="Таблица закладок">
       <div class="toolbar">
-        <label for="search">Нечёткий поиск:</label>
+        <label for="search">Поиск:</label>
         <input id="search" type="search" autocomplete="off" placeholder="URL, название, описание или тег">
         <button id="clear" type="button">Сбросить</button>
       </div>
@@ -105,7 +106,8 @@
       });
     };
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0"></script>
+  <script src="snowball.babel.min.js"></script>
+  <script src="bookmark-search.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tabulator-tables@6.3.1/dist/js/tabulator.min.js"></script>
   <script>
     function initViewer(sourceLabel) {
@@ -121,20 +123,9 @@
         return;
       }
 
-      const fuse = new Fuse(rows, {
-        includeScore: true,
-        ignoreLocation: true,
-        // Короткие совпадения вроде "xx" не должны выдавать "xxx".
-        // Порог 0.20 сохраняет терпимость к одной опечатке в длинных словах.
-        threshold: 0.20,
-        minMatchCharLength: 3,
-        keys: [
-          { name: "title", weight: 0.42 },
-          { name: "tags", weight: 0.28 },
-          { name: "description", weight: 0.22 },
-          { name: "url", weight: 0.08 }
-        ]
-      });
+      const searchIndex = new BookmarkSearch(rows);
+      let searchRanks = new Map();
+      let sortBeforeSearch = null;
 
       const table = new Tabulator("#table", {
         data: rows,
@@ -145,6 +136,8 @@
         columnDefaults: { vertAlign: "middle" },
         initialSort: [{ column: "date", dir: "desc" }],
         columns: [
+          { field: "searchRank", visible: false, sorter: (_a, _b, aRow, bRow) =>
+            (searchRanks.get(aRow.getData().id) ?? Infinity) - (searchRanks.get(bRow.getData().id) ?? Infinity) },
           { title: "Сайт", field: "title", minWidth: 360, widthGrow: 1, headerSort: true, formatter: siteFormatter, tooltip: true, variableHeight: true },
           { title: "Дата", field: "date", width: 104, hozAlign: "center", headerSort: true }
         ]
@@ -169,7 +162,7 @@
       const queryFromAddress = readHashQuery();
       if (queryFromAddress) {
         search.value = queryFromAddress;
-        applySearch();
+        table.on("tableBuilt", () => applySearch());
       }
 
       function applySearch(updateAddress = true) {
@@ -177,12 +170,22 @@
         if (updateAddress) writeHashQuery(query);
         if (!query) {
           table.clearFilter();
+          if (sortBeforeSearch !== null) {
+            table.setSort(sortBeforeSearch);
+            sortBeforeSearch = null;
+          }
           status.textContent = `Импортировано записей: ${rows.length} (${sourceLabel}). Фильтр сброшен.`;
           return;
         }
-        const ids = new Set(fuse.search(query).map(result => result.item.id));
+        if (sortBeforeSearch === null) {
+          sortBeforeSearch = table.getSorters().map(sort => ({ column: sort.field, dir: sort.dir }));
+        }
+        const results = searchIndex.search(query);
+        searchRanks = new Map(results.map((result, position) => [result.item.id, position]));
+        const ids = new Set(searchRanks.keys());
         table.setFilter(data => ids.has(data.id));
-        status.textContent = `Найдено: ${ids.size} из ${rows.length}. Нечёткий поиск: «${query}».`;
+        table.setSort("searchRank", "asc");
+        status.textContent = `Найдено: ${ids.size} из ${rows.length}. Поиск: «${query}». По релевантности.`;
       }
 
       function readHashQuery() {
@@ -214,32 +217,20 @@
           link.rel = "noopener noreferrer";
           const title = document.createElement("strong");
           title.textContent = result.item.title || result.item.url;
+          const url = document.createElement("span");
+          url.className = "similar-url";
+          url.textContent = ` (${result.item.url})`;
           const description = document.createElement("span");
           description.className = "similar-description";
           description.textContent = result.item.description || result.item.tags;
-          link.append(title, description);
+          link.append(title, url, description);
           item.append(link);
           similarList.append(item);
         }
       }
 
       function findSimilar(selected) {
-        const terms = `${selected.title} ${selected.tags}`
-          .toLocaleLowerCase("ru-RU")
-          .split(/[\s,.;:/()[\]{}]+/)
-          .filter(term => term.length >= 3)
-          .slice(0, 10);
-        const scores = new Map();
-        for (const term of terms) {
-          for (const result of fuse.search(term, { limit: 30 })) {
-            if (result.item.id === selected.id) continue;
-            scores.set(result.item.id, (scores.get(result.item.id) ?? 0) + 1 - (result.score ?? 1));
-          }
-        }
-        return [...scores.entries()]
-          .sort((first, second) => second[1] - first[1])
-          .slice(0, 10)
-          .map(([id, score]) => ({ item: rows.find(row => row.id === id), score: 1 - Math.min(score / terms.length, 1) }));
+        return searchIndex.similar(selected);
       }
 
       function makeTagsElement(value) {
