@@ -426,10 +426,9 @@ LinkT("http://fusion.ns-point.com/home","2011.10.19","графика,фото,б
 LinkT("http://www.instapaper.com/u","2011.10.05","сервис","Instapaper: Save interesting web pages for reading later","Сохраняем большие страницы, что бы прочитать потом. Есть RSS летна твоих статей, так что можно их выкачать на Android");
 LinkT("http://pranalitic.blogspot.com/2011/10/blog-post.html","2011.10.04","программа","PR-аналитика сайтов","куча программ для прогнозирования (в том числе и на основе ГА) \"метод алгоритмического или формального моделирования, базирующийся на обработке числовой информации\"");
 LinkT("http://www.vsetv.lv/","2011.10.02","сервис,Латвия,TV","VSETV.LV","телепрограмма на \"сейчас\". Основные ТВ программы Латвии.");
-LinkT("http://www.evernote.com/about/intl/ru/trunk/","2011.09.30","сервис,программа,Android,windows","Галерея Evernote | Evernote Corporation","сервис ведения заметок с возможностью вставки русунков-фото, голосовые заметки, распознавание текста на фотках, глобальный поиск. ");
-LinkT("http://www.citadalatvija.lv/","2011.09.28","Латвия,фото","Latvija | Citd Latvija","Фотографии латвии, в том числе и с высоты птичьего полета (метров 80-100)");
+LinkT("http://www.citadalatvija.lv/","2011.09.28","Латвия,фото","Latvija | Citd Latvija","Фотографии Латвии, в том числе и с высоты птичьего полета (метров 80-100)");
 LinkT("http://interneturok.ru/","2011.09.19","физика,образование,математика,химия","InternetUrok.ru - коллекция видеоуроков по основным предметам школьной программы.","это постоянно пополняемая коллекция видеоуроков по основным предметам школьной программы. Все материалы сайта находятся в бесплатном доступе и свободны от рекламы.");
-LinkT("https://www.militera.org/research/","2025.09.04","интересное,образование,история","Милитера — военная литература и исследования","Онлайн-библиотека военной истории: исследования, мемуары, документы и книги о войнах.");
+LinkT("https://www.militera.org/research/","2015.09.04","интересное,образование,история","Милитера — военная литература и исследования","Онлайн-библиотека военной истории: исследования, мемуары, документы и книги о войнах.");
 //LinkT("https://www.supercook.com/recipes/en","2026.09.04","дом,рецепты,сервис,recovered","SuperCook — поиск рецептов по ингредиентам","Поиск рецептов по имеющимся продуктам: добавляешь ингредиенты, а сервис показывает подходящие блюда.");
 LinkT("http://eu.nkon.nl/checkout/cart/","2011.08.27","магазины","Shopping Cart","зарядки La Crosse и аккумы Sanyo Eneloop");
 LinkT("http://500px.com/popular","2011.08.25","фото,галерея","500px / Popular Photos","500px lets you create stunning professional photo portfolios, find friends, express yourself and connect with people like you.");
@@ -798,7 +797,7 @@ LinkT("http://fundementals.sourceforge.net/about.html","2007.09.30","delphi ко
 LinkT("http://www.delphiplus.org","2007.09.29","delphi компоненты,Delphi,программирование","Delphi Plus - ежедневные новости информационных технологий","");
 LinkT("http://www.ishodniki.ru","2007.09.30","Delphi,программирование,алгоритм","Исходники .Ру - программирование. Язык программирование Visual C++ .NET Delphi Pascal Visual Basic Assembler","");
 LinkT("https://code.google.com/","2007.09.30","программирование,поиск","Google Code Search","Google Developers, Open Source, Code Archive");
-LinkT("https://algolist.ru/","2026.09.04","Delphi,алгоритм,программирование","AlgoList — алгоритмы, методы, исходники","Каталог алгоритмов и исходников: математика, сортировка, структуры данных, поиск, графика, сжатие, кодирование и нейронные сети.");
+LinkT("https://algolist.ru/","2019.09.04","Delphi,алгоритм,программирование","AlgoList — алгоритмы, методы, исходники","Каталог алгоритмов и исходников: математика, сортировка, структуры данных, поиск, графика, сжатие, кодирование и нейронные сети.");
 LinkT("http://www.opennet.ru/docs/RUS/inet_book/2/28/corec_28.html","2007.09.30","алгоритм,turbocodes","Коррекция ошибок","код Хэмминга, Циклические коды, Линейные блочные коды");
 LinkT("http://www.programmersforum.ru","2007.09.29","Delphi,forum,программирование,форум","Форум программистов","");
 LinkT("http://www.delphibasics.ru","2007.09.29","Delphi","Справочник - \"Основы Delphi\"","");
@@ -844,12 +843,14 @@ LinkT("http://xhamster.com/","2011.09.28","XXX","xHamsters Free Porn Videos","п
 //LinkT("http://pornoslon.ru/","1331562634","XXX","Порно Слон - редкое секс видео и фото качаем бесплатно","<DD>скачивание с файлопомоек эротической кулбнички");
 LinkT("http://kladoffka.com/mcnudes/","2012.05.29","XXX","Девушки MC Nudes","MC Nudes является большой коллекцией эротического фото и видео высокого разрешения (эро фото до 5000х4000 пикселей). Это качественная эротика с участием европейских моделей и лесбиянок.");
 LinkT("https://xxxtor.com/","2013.05.30","XXX,torrent","XXX - порнотрекер","Porno video. Предпросмотр кадров, есть топ скачиваний, разбито по группам.");
-LinkT("http://naked-woman.ru/karta-sajta","2015.08.02","фото,XXX","Прекрасные девушки","");
-LinkT("https://www.fuq.com/search?filter%5Border_by%5D=popular&filter%5Bpublished%5D%5Bmin%5D=3M&filter%5Bduration%5D%5Bmin%5D=1800&filter%5Bquality%5D=&filter%5Badvertiser_site%5D=&filter%5Btag_list%5D%5Borientation%5D=straight","2019.04.07","xxx, video","FuQ","Мульти-мета-сборник порнухи с разных сайтов, больше сотни категорий (gangbang, anal sex, mom, tits). Фильтрация по длительности, дате, качеству.");
+LinkT("https://www.fuq.com/ru/search?filter%5Badvertiser_publish_date%5D=3M&filter%5Bduration%5D=600&filter%5Bquality%5D=&filter%5Bvirtual_reality%5D=&filter%5Badvertiser_site%5D=&filter%5Border_by%5D=popular","2019.04.07","xxx, video","FuQ","Мульти-мета-сборник порнухи с разных сайтов, больше сотни категорий (gangbang, anal sex, mom, tits). Фильтрация по длительности, дате, качеству.");
 //LinkT("https://www.gonzoxxxmovies.com/search?filter%5Border_by%5D=popular&filter%5Bpublished%5D%5Bmin%5D=1M&filter%5Bduration%5D%5Bmin%5D=1200&filter%5Bquality%5D=&filter%5Badvertiser_site%5D=&filter%5Btag_list%5D%5Borientation%5D=","2017.07.30","xxx, video","Gonzo","Мульти-мета-сборник порнухи с разных сайтов, больше сотни категорий (gangbang, anal sex, mom, tits). Фильтрация по длительности, дате, качеству.");
 LinkT("http://fappers.xxx/","2017.07.01","xxx, foto","Hardcore","Фотографии в хорошем качестве (эротика, хардкор)");
 LinkT("https://russ.anyporn.com/categories/hd/","2017.05.20","xxx","HD porn","Ролики (анал, втроем, групповуха, кунилингус, минет, оргия, порнозвезды, сиськи)");
-LinkT("http://www.elitebabes.com/most-viewed/","2017.05.20","xxx","Фото галереи телок","Много интересных голых фотграфий");
+LinkT("http://www.elitebabes.com/most-viewed/","2017.05.20","xxx","Фото галереи телок","Много интересных голых фотографий");
 LinkT("http://www.general-cathexis.com/","2020.04.29","freeware, graphics, графика","SAR Image Processor","Бесплатная программа (с поддержкой командной строки) для обработки фотографий - шумоподавление, FFT, увеличение нейросетью, HDR тонирование через слои, улучшение контраста, фильтры, работа с текстурой и т.п. Непривычный интерфейс, плохая документация. В чем-то напоминает Image magic");
 
 LinkT("http://www.girlstop.info/","2016.02.25","XXX","Эротические фотосеты","Мы отбираем лучшие фото самых красивых девушек каждый день для Вас. Голосование.");
+
+
+LinkT("http://ninite.com/","2016.02.25","сервис, windows, программа, freeware","Ninite - Install or Update Multiple Apps at Once","Сервис по созданию инсталлятора по типу Выбрали xx программ из списка, получили 250 кб инсталлятор. Несем на новую машину, запускаем, через 10 минут получаем xx программ (идет скачивание новых версий из интернета!) Opera, Chrome, Firefox, Discord, Thunderbird, Skype, TeamViewer, VLC, K-Lite, Avast, AVG, Avira, Dropbox, OneDrive, 7-Zip, PeaZip, WinRar, OpenOffice, Java");
