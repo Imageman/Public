@@ -313,13 +313,10 @@ LinkT("http://worldoftanks.ru/","2013.04.19","бесплатно,игры","Worl
 LinkT("http://www.kcsoftwares.com/?sumo","2013.03.22","программа,freeware,бесплатно","Sumo updates - KC Softwares","Проверка обновлений любых exe файлов.");
 LinkT("http://www.machinelearning.ru/wiki/index.php?title=%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D0%A4%D0%9E%D0%A0%D0%95%D0%9B%D0%AC","2013.03.21","алгоритм,russian","Алгоритм ФорЭл","автоматическая классификация. Построение (разбиение) на кластеры.");
 LinkT("http://ttv.run/","2013.03.19","torrent,TV,internet,russian","Торрент-ТВ","Torrent TV - смотреть русские каналы в хорошем качестве (через плагин)");
-LinkT("http://www.webhostinghub.com/glyphs/","2013.03.16","бесплатно,дизайн,graphics","WebHostingHub Glyphs","куча маленьких монохромных (черно-белых) иконок в разных категориях. бесплатно");
 LinkT("http://www.cherubicsoft.com/shareaza","2013.03.15","internet,программирование,программа,p2p","Shareaza LAN Mode","сайт \"администратора\" Шарезы (Gnutella, BitTorrent, eDonkey, eMule, DC++, http, ftp). + LAN версия");
-LinkT("http://www.realspeaker.net/ru/","2013.03.14","программа","распознаватель речи RealSpeaker","распознает и превращает в текст речь с микрофона и камеры. Есть беспалатная версия");
-LinkT("http://www.obostore.com/","2013.02.16","магазины","Cell Phone Accessories and Cases, Electronic Gadgets, PC Components, Free Shipping Worldwide - OBOstore.com","Магазин, где продается Music Angel и другие гаджеты. Недорого.");
 LinkT("http://www.facebook.com/ilona.pulkstene/photos_albums","2013.02.14","фото","Фото Илоны из Риги","портреты");
 LinkT("https://www.box.com/","2013.02.11","internet,сервис","Box","Облачное хранилище наподобие Dropbox. Box online file storage, (FTP and WebDAV). Дали 50 Gb");
-LinkT("https://mega.co.nz/","2013.01.23","internet,сервис","MEGA","облачное хранение файлов (с возможностью создания файлопомойки). Шифрование. Создание ссылок. (Наподобии rapidshare)");
+LinkT("https://mega.co.nz/","2013.01.23","internet,сервис","MEGA","облачное хранение файлов (с возможностью создания файлопомойки). Шифрование. Создание ссылок. (Наподобии rapidshare, dropbox)");
 LinkT("http://habrahabr.ru/post/164045/","2013.01.14","internet,погода,сервис","OpenWeatherMap – как энтузиасты делают погоду / Хабрахабр","бесплатное API для получения погоды (вроде как прогноз и история погоды).");
 LinkT("http://wowvectors.com/","2013.01.05","freeware,graphics,stock","Free Vectors & Graphics for Download","FREE Vectors & Graphics for Download!!! Find more than 600 vector arts, vector decorations, icons, illustration and design elements in EPS file for your design artwork!");
 LinkT("http://123freevectors.com/","2013.01.05","graphics,freeware,stock","Download Free Vector Graphic Designs | Free Vector Art Images | 123FreeVectors","eps .ai");
@@ -559,7 +556,6 @@ LinkT("http://habrahabr.ru/blogs/algorithm/69985/","2009.09.18","алгорит�
 LinkT("http://forum.mql4.com/ru/24839/page2","2009.09.14","алгоритм","Ослабление сигнала функцией логарифма","Нелинейное масштабирование (сжатие) любой функции (чисел) при помощи логарифма. if (Source>=0) return(Log(Source+1))");
 LinkT("https://habrahabr.ru/post/273549/","2009.09.12","программирование,Delphi","Создание приложений для СУБД Firebird с использованием различных компонент и драйверов: FireDac","работа и описание БД, работает в Дельфи, может быть встроена в программу (не требуя сервера)");
 LinkT("http://www.visualtravelguide.com/medium/Russia-Ural.html","2009.09.11","foto,blog,фото","Russia Ural","путешествие по Уралу");
-LinkT("http://www.esignal.com/default.aspx","2009.09.08","csv","Streaming, real-time quotes and analysis on the world's markets delivered to PCs, laptops, PDAs and smart phones","тут, вроде, можно получить биржевую информацию");
 LinkT("http://epp.eurostat.ec.europa.eu/portal/page/portal/statistics/bulk_download","2009.09.03","csv","eurostat - Bulk download","барахолка данных. куча данных (зажатых .gz)  (updated twice a day)");
 LinkT("http://www.ereport.ru/stat.php","2009.09.03","csv,экономика","Экономические индексы: статистика и графики","очень большая БД по разным экономическим показателям (металлы, нефть, инфляция, безработица, баланс) Меняется раз в месяц с опозданием");
 LinkT("http://greenflash.su/Grub4Dos/Grub4dos.htm","2009.09.03","advanced,windows","Русскоязычное руководство по загрузчику Grub4dos","создание загрузочной флешки, винчестера и CD с поддержкой мультизагрузки (меню)");
@@ -663,9 +659,9 @@ LinkT("http://emule-rus.net/","2008.09.17","eMule,фильмы","eMule-Rus.Net. 
 LinkT("http://picasaweb.google.ru/imageman72/","2008.06.29","foto,blog,galery,фото,галерея","Imageman72 - Веб-альбомы Picasa - Vlad","фотографии В.Чаплинского, собранные в альбомы");
 LinkT("http://www.vozdyx.ru/shop/cat.php#home","2008.09.02","магазин,hardware","очистители воздуха Аэролайф серия Севеж. Воздухоочистители","Фотокаталитический и пылевой HEPA - фильтр");
 LinkT("http://www.moskva.fm","2007.10.05","радио,internet,сервис,online,russian","MOSKVA.FM песни со всех радиостанций Москвы","ресурс, позволяющий в режиме реального времени получать и обрабатывать статистические данные о вещании всех московских радиостанций в FM диапазоне - песни, передачи, архив");
-LinkT("http://sasgis.ru/programs/","2008.08.07","freeware,internet,graphics,Латвия,бесплатно,графика","SASGIS | google maps","карты с разных сайтов можно скачать и склеить у себя на компе");
+LinkT("http://www.sasgis.org/","2008.08.07","freeware,graphics,бесплатно,графика","SASGIS | google maps","САС.Планета - карты (в том числе спутниковые) с разных сайтов можно скачать и склеить у себя на компе");
 LinkT("http://www.joomla.org/","2008.08.04","freeware,internet,бесплатно","Joomla!","создание сайтов");
-LinkT("http://www.tawbaware.com/tufuse.htm","2008.07.28","freeware,software,foto,panorama,фото,бесплатно,панорама,программа","TuFuse: Exposure and Focus Blending Software","увеличение глубины резкости");
+LinkT("http://www.tawbaware.com/tufuse.htm","2008.07.28","freeware,software,foto,panorama,фото,бесплатно,панорама,программа","TuFuse: Exposure and Focus Blending Software","увеличение глубины резкости через сшивание (stacking) стопки фото.");
 LinkT("http://ryubin.com/panolab/panoflash/","2008.07.27","panorama,graphics,foto,software,фото,графика,панорама,программа","Ryubin's Flash Panorama","");
 LinkT("http://lcdtech.no-ip.info/data/lcd.panels.in.monitors.htm","2008.07.25","DTP,hardware","ЖК-панели в мониторах","");
 LinkT("http://www.realcolor.ru/lib/monitortest/","2007.12.04","hardware,DTP","RealColor.ru - Библиотека. Теория цвета","калибровка монитора при помощи PNG обоев на десктоп");
