@@ -323,7 +323,6 @@ LinkT("https://mega.co.nz/","2013.01.23","internet,сервис","MEGA","обл�
 LinkT("http://habrahabr.ru/post/164045/","2013.01.14","internet,погода,сервис","OpenWeatherMap – как энтузиасты делают погоду / Хабрахабр","бесплатное API для получения погоды (вроде как прогноз и история погоды).");
 LinkT("http://wowvectors.com/","2013.01.05","freeware,graphics,stock","Free Vectors & Graphics for Download","FREE Vectors & Graphics for Download!!! Find more than 600 vector arts, vector decorations, icons, illustration and design elements in EPS file for your design artwork!");
 LinkT("http://123freevectors.com/","2013.01.05","graphics,freeware,stock","Download Free Vector Graphic Designs | Free Vector Art Images | 123FreeVectors","eps .ai");
-LinkT("http://qvectors.net/","2013.01.05","freeware,graphics,stock","QVectors - Quality Free Vector Graphics","eps .ai");
 LinkT("http://www.vecteezy.com/","2013.01.05","graphics,freeware","Vecteezy! - Download Free Vector Art, Stock Graphics & Images...","");
 LinkT("http://www.rsdn.ru/article/tools/Git.xml","2013.01.05","программирование","Git в картинках","Git: Обучение, настройка, утилиты, diff, Git Extensions.");
 LinkT("https://bitbucket.org/","2013.01.04","программирование,сервис","Free source code hosting for Git and Mercurial by Bitbucket","Bitbucket is a free code DVCS hosting site for Git and Mercurial. Хранилище исходных кодов (история версий) + приватные репозитарии");
